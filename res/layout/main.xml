@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:id="@+id/njzq_main_jlp" android:background="@drawable/njzq_main_fk_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@+id/zr_headerBar" android:layout_width="fill_parent" android:layout_height="@dimen/title_height" layout="@layout/zr_topbar" />
+   	<RelativeLayout android:id="@+id/relativeLayout2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@+id/zr_headerBar">
+	    <RelativeLayout android:layout_alignParentTop="true" android:layout_width="fill_parent" android:id="@+id/viewtip" android:layout_height="@dimen/pic_height"/>
+	   	<RelativeLayout android:layout_width="fill_parent" android:id="@+id/relativeLayout4" android:layout_height="wrap_content" android:layout_below="@+id/viewtip">
+	    	<FrameLayout android:id="@+id/jlp_frame0" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	    		<ImageView android:id="@+id/njzq_jlp_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/njzq_jlp_bg"/>
+	    	</FrameLayout>
+	    	<FrameLayout android:id="@+id/jlp_frame1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	    		<ImageView android:id="@+id/njzq_light" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/njzq_jlp_guang"/>
+	    	</FrameLayout>
+	    	<FrameLayout android:id="@+id/jlp_frame3" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	    		<ImageView android:id="@+id/njzq_arrow" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/njzq_jlp_zz"/>
+	    	</FrameLayout>
+	    	<FrameLayout android:id="@+id/jlp_frame4" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	    		<ImageView android:id="@+id/njzq_select" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/njzq_jlp_select"/>
+	    	</FrameLayout>
+	    	<FrameLayout android:id="@+id/jlp_frame5" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	    		<ImageView android:id="@+id/njzq_yykh" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/njzq_jlp_yykh"/>
+	    	</FrameLayout>
+	    </RelativeLayout>
+	    <include android:id="@+id/zr_bottomBar" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/zr_bottombar" android:layout_alignParentBottom="true" android:layout_marginBottom="@dimen/bottom_tips"/>
+		<com.cssweb.android.custom.TransPanel
+			android:gravity="left" android:orientation="vertical" android:id="@+id/zr_popup_window"
+			android:visibility="gone" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:layout_below="@+id/zr_headerBar">
+			<ListView android:id="@+id/zr_menulist" android:background="@drawable/zrlistback" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/zrlistselectbg" android:cacheColorHint="#ff1d1d1d" android:divider="@drawable/zrlistfgx" android:dividerHeight="2.0dip" android:keepScreenOn="true"
+              xmlns:android="http://schemas.android.com/apk/res/android" />
+		</com.cssweb.android.custom.TransPanel>
+    </RelativeLayout>
+</RelativeLayout>

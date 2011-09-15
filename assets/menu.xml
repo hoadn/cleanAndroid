@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menus>
+	<menu>
+		<menuName>专家解盘</menuName>
+		<menuClass>com.cssweb.android.web.WebViewDisplay</menuClass>
+		<pos>3</pos>
+		<position>0</position>
+		<menu_id>3</menu_id>
+		<isneedlogin>false</isneedlogin>
+	</menu>
+	
+	<menu>
+		<menuName>我的投资顾问</menuName>
+		<menuClass>com.cssweb.android.web.WebViewDisplay</menuClass>
+		<pos>3</pos>
+		<position>1</position>
+		<menu_id>3</menu_id>
+		<isneedlogin>false</isneedlogin>
+	</menu>
+	
+	<menu>
+		<menuName>我的客户经理</menuName>
+		<menuClass>com.cssweb.android.web.WebViewDisplayom.cssweb.android.fzjy.ZJJPActivity</menuClass>
+		<pos>3</pos>
+		<position>2</position>
+		<menu_id>3</menu_id>
+		<isneedlogin>false</isneedlogin>
+	</menu>
+	
+	<menu>
+		<menuName>在线客服</menuName>
+		<menuClass>com.cssweb.android.web.WebViewDisplay</menuClass>
+		<pos>3</pos>
+		<position>3</position>
+		<menu_id>3</menu_id>
+		<isneedlogin>false</isneedlogin>
+	</menu>
+	<menu>
+		<menuName>客服热线</menuName>
+		<menuClass>com.cssweb.android.web.WebViewDisplay</menuClass>
+		<pos>3</pos>
+		<position>4</position>
+		<menu_id>3</menu_id>
+		<isneedlogin>false</isneedlogin>
+	</menu>
+	<menu>
+		<menuName>广纳良言</menuName>
+		<menuClass>com.cssweb.android.web.WebViewDisplay</menuClass>
+		<pos>3</pos>
+		<position>5</position>
+		<menu_id>3</menu_id>
+		<isneedlogin>false</isneedlogin>
+	</menu>
+	
+	<menu>
+	<!--  -->
+		<menuName>常见问题</menuName>
+		<menuClass>com.cssweb.android.web.WebViewDisplay</menuClass>
+		<pos>3</pos>
+		<position>6</position>
+		<menu_id>3</menu_id>
+		<isneedlogin>false</isneedlogin>
+	</menu>
+	<menu>
+		<menuName>模拟炒股</menuName>
+		<menuClass>com.cssweb.android.fzjy.VistualTrade</menuClass>
+		<pos>3</pos>
+		<position>7</position>
+		<menu_id>3</menu_id>
+		<isneedlogin>false</isneedlogin>
+	</menu>
+	
+	
+	<menu>
+		<menuName>行情预警</menuName>
+		<menuClass>com.cssweb.android.quote.QuoteWarning</menuClass>
+		<pos>10</pos>
+		<position>0</position>
+		<menu_id>10</menu_id>
+		<isneedlogin>true</isneedlogin>
+	</menu>
+	
+	<menu>
+		<menuName>我的自选</menuName>
+		<menuClass>com.cssweb.android.quote.PersonalStock</menuClass>
+		<pos>107</pos>
+		<position>0</position>
+		<menu_id>107</menu_id>
+		<isneedlogin>true</isneedlogin>
+	</menu>
+	
+	<menu>
+		<menuName>大盘指数</menuName>
+		<menuClass>com.cssweb.android.quote.DaPan</menuClass>
+		<pos>1</pos>
+		<position>2</position>
+		<menu_id>1</menu_id>
+		<isneedlogin>false</isneedlogin>
+	</menu>
+	
+	<menu>
+		<menuName>综合排名</menuName>
+		<menuClass>com.cssweb.android.quote.PaiMing</menuClass>
+		<pos>1</pos>
+		<position>3</position>
+		<menu_id>0</menu_id>
+		<isneedlogin>false</isneedlogin>
+	</menu>
+	
+	<menu>
+		<menuName>个股查询</menuName>
+		<menuClass>com.cssweb.android.quote.QueryStock</menuClass>
+		<pos>1</pos>
+		<position>4</position>
+		<menu_id>1</menu_id>
+		<isneedlogin>false</isneedlogin>
+	</menu>
+	
+	<menu>
+		<menuName>全球市场</menuName>
+		<menuClass>com.cssweb.android.quote.GlobalMarketActivity</menuClass>
+		<pos>1</pos>
+		<position>7</position>
+		<menu_id>1</menu_id>
+		<isneedlogin>false</isneedlogin>
+	</menu>
+	
+	<menu>
+		<menuName>分类报价</menuName>
+		<menuClass>com.cssweb.android.quote.FenLei</menuClass>
+		<pos>1</pos>
+		<position>5</position>
+		<menu_id>1</menu_id>
+		<isneedlogin>false</isneedlogin>
+	</menu>
+	
+	<menu>
+		<menuName>场外基金</menuName>
+		<menuClass>com.cssweb.android.quote.OTCFundActivity</menuClass>
+		<pos>1</pos>
+		<position>6</position>
+		<menu_id>1</menu_id>
+		<isneedlogin>false</isneedlogin>
+	</menu>
+	
+	
+	
+	<menu>
+		<menuName>预约开户</menuName>
+		<menuClass>com.cssweb.android.web.WebViewDisplay</menuClass>
+		<pos>4</pos>
+		<position>0</position>
+		<menu_id>4</menu_id>
+		<isneedlogin>false</isneedlogin>
+	</menu>
+	
+	<menu>
+		<menuName>营业厅公告</menuName>
+		<menuClass>com.cssweb.android.web.WebViewDisplay</menuClass>
+		<pos>4</pos>
+		<position>1</position>
+		<menu_id>4</menu_id>
+		<isneedlogin>false</isneedlogin>
+	</menu>
+	
+	<menu>
+		<menuName>营业网点</menuName>
+		<menuClass>com.cssweb.android.web.WebViewDisplay</menuClass>
+		<pos>4</pos>
+		<position>2</position>
+		<menu_id>4</menu_id>
+		<isneedlogin>false</isneedlogin>
+	</menu>
+	
+	<menu>
+		<menuName>业务中心</menuName>
+		<menuClass>com.cssweb.android.web.WebViewDisplay</menuClass>
+		<pos>4</pos>
+		<position>3</position>
+		<menu_id>4</menu_id>
+		<isneedlogin>false</isneedlogin>
+	</menu>
+	
+	<menu>
+		<menuName>投资者教育</menuName>
+		<menuClass>com.cssweb.android.web.WebViewDisplay</menuClass>
+		<pos>4</pos>
+		<position>4</position>
+		<menu_id>4</menu_id>
+		<isneedlogin>false</isneedlogin>
+	</menu>
+	<!-- new -->
+	<menu>
+		<menuName>推荐开户</menuName>
+		<menuClass>com.cssweb.android.web.WebViewDisplay</menuClass>
+		<pos>4</pos>
+		<position>5</position>
+		<menu_id>4</menu_id>
+		<isneedlogin>false</isneedlogin>
+	</menu>
+	
+	
+	<menu>
+		<menuName>宁证动态</menuName>
+		<menuClass>com.cssweb.android.web.WebViewDisplay</menuClass>
+		<pos>5</pos>
+		<position>0</position>
+		<menu_id>5</menu_id>
+		<isneedlogin>false</isneedlogin>
+	</menu>
+	
+	<menu>
+		<menuName>走进宁证</menuName>
+		<menuClass>com.cssweb.android.web.WebViewDisplay</menuClass>
+		<pos>5</pos>
+		<position>1</position>
+		<menu_id>5</menu_id>
+		<isneedlogin>false</isneedlogin>
+	</menu>
+	
+	<menu>
+		<menuName>精英汇</menuName>
+		<menuClass>com.cssweb.android.web.WebViewDisplay</menuClass>
+		<pos>5</pos>
+		<position>2</position>
+		<menu_id>5</menu_id>
+		<isneedlogin>false</isneedlogin>
+	</menu>
+	
+	<menu>
+		<menuName>积分乐园</menuName>
+		<menuClass>com.cssweb.android.web.WebViewDisplay</menuClass>
+		<pos>6</pos>
+		<position>0</position>
+		<menu_id>6</menu_id>
+		<isneedlogin>false</isneedlogin>
+	</menu>
+	
+	
+	<menu>
+		<menuName>操盘必读</menuName>
+		<menuClass>com.cssweb.android.web.WebViewDisplay</menuClass>
+		<pos>7</pos>
+		<position>0</position>
+		<menu_id>7</menu_id>
+		<isneedlogin>false</isneedlogin>
+	</menu>
+	
+	<menu>
+		<menuName>要闻直击</menuName>
+		<menuClass>com.cssweb.android.web.WebViewDisplay</menuClass>
+		<pos>7</pos>
+		<position>1</position>
+		<menu_id>7</menu_id>
+		<isneedlogin>false</isneedlogin>
+	</menu>
+	<!-- new -->
+	<menu>
+		<menuName>盘面护航</menuName>
+		<menuClass>com.cssweb.android.web.WebViewDisplay</menuClass>
+		<pos>7</pos>
+		<!-- case -->
+		<position>2</position>
+		<menu_id>7</menu_id>
+		<isneedlogin>false</isneedlogin>
+	</menu>
+	<menu>
+		<menuName>特供内参</menuName>
+		<menuClass>com.cssweb.android.web.WebViewDisplay</menuClass>
+		<pos>7</pos>
+		<!-- case -->
+		<position>3</position>
+		<menu_id>7</menu_id>
+		<isneedlogin>false</isneedlogin>
+	</menu>
+	
+	<menu>
+		<menuName>资金流向</menuName>
+		<menuClass>com.cssweb.android.web.WebViewDisplay</menuClass>
+		<pos>7</pos>
+		<position>4</position>
+		<menu_id>7</menu_id>
+		<isneedlogin>false</isneedlogin>
+	</menu>
+	
+	<menu>
+		<menuName>股歌gugle</menuName>
+		<menuClass>com.cssweb.android.web.WebViewDisplay</menuClass>
+		<pos>7</pos>
+		<position>5</position>
+		<menu_id>7</menu_id>
+		<isneedlogin>false</isneedlogin>
+	</menu>
+	
+	<menu>
+		<menuName>精选证券池</menuName>
+		<menuClass>com.cssweb.android.web.JxgpcActivity</menuClass>
+		<pos>0</pos>
+		<position>0</position>
+		<menu_id>0</menu_id>
+		<isneedlogin>false</isneedlogin>
+	</menu>
+	<!-- new -->
+	<menu>
+		<menuName>投资组合</menuName>
+		<menuClass>com.cssweb.android.web.WebViewDisplay</menuClass>
+		<pos>0</pos>
+		<position>1</position>
+		<menu_id>0</menu_id>
+		<isneedlogin>false</isneedlogin>
+	</menu>
+	
+	<menu>
+		<menuName>证券研究</menuName>
+		<menuClass>com.cssweb.android.web.WebViewDisplay</menuClass>
+		<pos>0</pos>
+		<position>2</position>
+		<menu_id>0</menu_id>
+		<isneedlogin>false</isneedlogin>
+	</menu>
+	
+	<menu>
+		<menuName>期货研究</menuName>
+		<menuClass>com.cssweb.android.web.WebViewDisplay</menuClass>
+		<pos>0</pos>
+		<position>3</position>
+		<menu_id>0</menu_id>
+		<isneedlogin>false</isneedlogin>
+	</menu>
+	
+	<menu>
+		<menuName>财富频道</menuName>
+		<menuClass>com.cssweb.android.web.CfpdActivity</menuClass>
+		<pos>0</pos>
+		<position>4</position>
+		<menu_id>0</menu_id>
+		<isneedlogin>false</isneedlogin>
+	</menu><!--
+	
+	<menu>
+		<menuName>期货行情</menuName>
+		<menuClass>com.cssweb.android.quote.QHHQActivity</menuClass>
+		<pos>1</pos>
+		<position>8</position>
+		<menu_id>1</menu_id>
+		<isneedlogin>false</isneedlogin>
+	</menu>
+	
+--></menus>

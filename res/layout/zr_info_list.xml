@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@+id/zr_headerBar" android:layout_width="fill_parent" android:layout_height="@dimen/title_height" layout="@layout/zr_topbar" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_below="@id/zr_headerBar">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ListView android:id="@+id/zr_il_listview" android:background="@drawable/zrlistback" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/zrlistselectbg" android:cacheColorHint="#ff1d1d1d" android:divider="@drawable/zrlistfgx" android:dividerHeight="2.0dip" android:keepScreenOn="true"
+              xmlns:android="http://schemas.android.com/apk/res/android" />
+        </FrameLayout>
+    </RelativeLayout>
+    <com.cssweb.android.custom.TransPanel
+		android:gravity="left" android:orientation="vertical" android:id="@+id/zr_popup_window"
+		android:visibility="gone" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_below="@+id/zr_headerBar">
+		<ListView android:id="@+id/zr_menulist" android:background="@drawable/zrlistback" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/zrlistselectbg" android:cacheColorHint="#ff1d1d1d" android:divider="@drawable/zrlistfgx" android:dividerHeight="2.0dip" android:keepScreenOn="true"
+             xmlns:android="http://schemas.android.com/apk/res/android" />
+	</com.cssweb.android.custom.TransPanel>
+</RelativeLayout>

@@ -1,0 +1,1275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<string-array name="other_market_bs_methods">
+		<item>限价委托</item>
+	</string-array>
+	<string-array name="other_market_bs_methods_val">
+		<item></item>
+	</string-array>
+	<string-array name="sz_market_bs_methods">
+		<item>限价委托</item>
+		<item>对方最优价格</item>
+		<item>本方最优价格</item>
+		<item>立即成交否则撤单</item>
+		<item>五档即成剩撤</item>
+		<item>全部成交或撤销</item>
+	</string-array>
+	<string-array name="sz_market_bs_methods_val">
+		<item></item>
+		<item>101</item>
+		<item>102</item>
+		<item>103</item>
+		<item>104</item>
+		<item>105</item>
+	</string-array>
+	<string-array name="sh_market_bs_methods">
+		<item>限价委托</item>
+		<item>五档即成剩撤</item>
+		<item>五档即成转限价</item>
+	</string-array>
+	<string-array name="sh_market_buy_methods_val">
+		<item></item>
+		<item>1</item>
+		<item>2</item>
+	</string-array>
+	<string-array name="collateral_transfer_direction">
+		<item>划入信用账户</item>
+		<item>划出信用账户</item>
+	</string-array> 
+	<string-array name="bank_transfer_moneytype">
+		<item>所有币种</item>
+		<item>人民币</item>
+		<item>港币</item>
+		<item>美元</item>
+	</string-array>
+	<string-array name="bank_transfer_moneytype_val">
+		<item></item>
+		<item>RMB</item>
+		<item>HKD</item>
+		<item>USD</item>
+	</string-array>
+	<string-array name="bank_transfer2_moneytype">
+		<item>人民币</item>
+		<item>港币</item>
+		<item>美元</item>
+	</string-array>
+	<string-array name="bank_transfer2_moneytype_val">
+		<item>RMB</item>
+		<item>HKD</item>
+		<item>USD</item>
+	</string-array>
+	<string-array name="trade_selected_menu">
+		<item>委托买入</item>
+		<item>委托卖出</item>
+		<item>取消</item>
+	</string-array>
+	<string-array name="cwjj_list_menu">
+		<item>股票型基金</item>
+		<item>债券型基金</item>
+		<item>混合型基金</item>
+		<item>货币型基金</item>
+		<item>开放式基金</item>
+	</string-array>
+	<string-array name="stock_type_menu">
+		<item>上证Ａ股</item>
+		<item>上证Ｂ股</item>
+		<item>深证Ａ股</item>
+		<item>深证Ｂ股</item>
+		<item>上证债券</item>
+		<item>深证债券</item>
+		<item>沪深A股</item>
+		<item>沪深B股</item>
+		<item>沪深债券</item>
+		<item>沪深封基</item>
+		<item>上证ETF</item>
+		<item>深证ETF</item>
+		<item>深证LOF</item>
+		<item>沪深权证</item>
+		<item>中小板</item>
+		<item>创业板</item>
+		<item>三板</item>
+	</string-array>
+	<string-array name="stock_paiming_menu">
+		<item>上证Ａ股</item>
+		<item>上证Ｂ股</item>
+		<item>深证Ａ股</item>
+		<item>深证Ｂ股</item>
+		<item>上证债券</item>
+		<item>深证债券</item>
+		<item>沪深Ａ股</item>
+		<item>沪深Ｂ股</item>
+		<item>中小板     </item>
+		<item>沪深权证</item>
+		<item>创业板     </item>
+	</string-array>
+	
+	<string-array name="dss_type_menu">
+		<item>豆一</item>
+		<item>豆二</item>
+		<item>豆粕</item>
+		<item>豆油</item>
+		<item>玉米</item>
+		<item>棕榈</item>
+		<item>乙烯</item>
+		<item>PVC</item>
+		<item>焦炭</item>
+	</string-array>
+	
+	<string-array name="sqs_type_menu">
+		<item>沪铜</item>
+		<item>沪铝</item>
+		<item>沪锌</item>
+		<item>沪铅</item>
+		<item>黄金</item>
+		<item>燃油</item>
+		<item>橡胶</item>
+		<item>螺纹</item>
+		<item>线材</item>
+	</string-array>
+	
+	<string-array name="zss_type_menu">
+		<item>菜油</item>
+		<item>强麦</item>
+		<item>硬麦</item>
+		<item>郑棉</item>
+		<item>白糖</item>
+		<item>PTA</item>
+		<item>籼稻</item>
+	</string-array>
+	
+	<string-array name="stock_cols">
+		<item>证券名称</item>
+		<item>证券代码</item>
+		<item>涨幅%</item>
+		<item>现价</item>
+		<item>涨跌</item>
+		<item>买一</item>
+		<item>卖一</item>
+		<item>总量</item>
+		<item>现量</item>
+		<item>换手%</item>
+		<item>今开</item>
+		<item>昨收</item>
+		<item>最高 </item>
+		<item>最低</item>
+		<item>总金额 </item>
+		<item>振幅%</item>
+		<item>量比</item>
+		<item>委比%</item>
+		<item>委差</item>
+	</string-array>
+	
+	<string-array name="qqsp_cols">
+		<item>名称</item>
+		<item>现价</item>
+		<item>涨幅%</item>
+		<item>涨跌</item>
+	</string-array>
+	
+	<string-array name="hszs_cols">
+		<item>名称</item>
+		<item>代码</item>
+		<item>现价</item>
+		<item>涨幅%</item>
+		
+		<item>涨跌</item>
+		<item>总额</item>
+		
+		<item>今开</item>
+		<item>昨收</item>
+		<item>最高</item>
+		<item>最低</item>
+		<item>振幅%</item>
+
+		
+	</string-array>
+	<string-array name="index_cols">
+		<item>指数名称</item>
+		<item>指数代码</item>
+		<item>最新</item>
+		<item>涨幅%</item>
+		<item>总额 </item>
+		<item>涨跌</item>
+		<item>总量</item>
+		<item>现量</item>
+		<item>今开</item>
+		<item>昨收</item>
+		<item>最高 </item>
+		<item>最低</item>
+		<item>振幅% </item>
+		<item>量比</item>
+		
+		<item>静态市盈</item>
+		<item>平均股本</item>
+		<item>总市值</item>
+		<item>占比%</item>
+		<item>样本均价</item>
+		<item>样本数量</item>
+	</string-array>
+	
+	<string-array name="qhsc_cols">
+		<item>代码</item>
+		<item>名称</item>
+		<item>现价</item>
+		<item>涨幅%</item>
+		<item>涨跌 </item>
+		<item>买价</item>
+		<item>卖价</item>
+		<item>买量</item>
+		<item>卖量</item>
+		<item>现量</item>
+		<item>总量 </item>
+		<item>今开</item>
+		<item>最高</item>
+		<item>最低</item>
+		
+		
+		<item>结算</item>
+		<item>昨结</item>
+		<item>持仓</item>
+		<item>仓差</item>
+		<item>总额</item>
+		<item>昨收</item>
+	</string-array>
+	
+	<string-array name="cqsp_cols">
+		<item>名称</item>
+		<item>现价</item>
+		<item>涨幅%</item>
+		<item>涨跌</item>
+	</string-array>
+	
+	
+	<string-array name="worldmarket_cols">
+		<item>名称</item>
+		<item>指数代码</item>
+		<item>日期</item>
+		<item>今日开盘</item>
+		<item>最高</item>
+		<item>最低</item>
+		<item>收盘</item>
+		<item>昨日收盘</item>
+		<item>涨跌</item>
+		<item>幅度(%)</item>
+	</string-array>
+	<string-array name="quotealarm_cols">
+		<item>证券名称</item>
+		<item>现价</item>
+		<item>上破价\n涨幅</item>
+		<item>下破价\n跌幅</item>
+	</string-array>
+	<string-array name="stock_desc">
+		<item>正序</item>
+		<item>逆序</item>
+	</string-array>
+	<string-array name="index_menu">
+		<item>设为自选</item>
+		<item>进入分时</item>
+		<item>进入Ｋ线</item>
+		<item>返回首页</item>
+	</string-array>
+	<string-array name="time_menu">
+		<item>日</item>
+		<item>周</item>
+		<item>月</item>
+	</string-array>
+	<string-array name="select_menu">
+		<item>涨幅</item>
+		<item>跌幅</item>
+        <item>涨跌</item>
+        <item>换手</item>
+	</string-array>
+	<string-array name="indicator_menu">
+		<item>VOLUME</item>
+		<item>MACD</item>
+		<item>KDJ</item>
+		<item>RSI</item>
+		<item>BOLL</item>
+		<item>BIAS</item>
+		<item>OBV</item>
+		<item>W%R</item>
+		<item>VR</item>
+		<item>CCI</item>
+		<item>PSY</item>
+		<item>ROC</item>
+		<item>MA</item>
+	</string-array>
+	<string-array name="klinezq_menu">
+		<!--
+			<item>5分钟</item> <item>15分钟</item> <item>20分钟</item>
+			<item>60分钟</item>
+		-->
+		<item>日</item>
+		<item>周</item>
+		<item>月</item>
+		<item>年</item>
+	</string-array>
+	<string-array name="zqpm_menu">
+		<item>现价</item>
+		<item>涨幅</item>
+		<item>涨跌</item>
+		<item>成交量</item>
+		<item>成交额</item>
+		<item>委比</item>
+		<item>振幅</item>
+	</string-array>
+	<string-array name="zqpm_menu2">
+		<item>现价</item>
+		<item>涨幅</item>
+		<item>涨跌</item>
+		<item>成交量</item>
+		<item>成交额</item>
+		<item>委比</item>
+	</string-array>
+	<string-array name="zr_dialog_screenswitch_items">
+		<item>最新报价</item>
+		<item>分时走势</item>
+		<item>K线分析</item>
+		<item>F10资讯</item>
+		<item>信息地雷</item>
+		<item>成交明细</item>
+	</string-array>
+
+
+	<!-- add by ws -->
+	<string-array name="cnjj_list_menu">
+		<item>场内认购</item>
+		<item>场内申购</item>
+		<item>场内赎回</item>
+	</string-array>
+	<string-array name="zr_trade_yzzz_type">
+		<item>银行转证券(转入)</item>
+		<item>证券转银行(转出)</item>
+	</string-array>
+	<string-array name="zr_trade_query_new_stock_sucess_match_name">
+		<item>股东代码</item>
+		<item>证券名称</item>
+		<item>证券代码</item>
+		<item>成交价</item>
+		<item>成交数量</item>
+		<item>中签日期</item>
+	</string-array>
+	<string-array name="zr_trade_query_new_stock_sucess_match_index">
+		<item>secuid</item>
+		<item>stkname</item>
+		<item>stkcode</item>
+		<item>matchprice</item>
+		<item>matchqty</item>
+		<item>bizdate</item>
+	</string-array>
+	<string-array name="zr_trade_query_yzzz_name">
+		<item>转帐日期</item>
+		<item>转账时间</item>
+		<item>银行代码</item>
+		<item>银行名称</item>
+		<item>转账金额</item>
+		<item>银行余额</item>
+		<item>币种</item>
+		<item>状态说明</item>
+		<item>银行流水号</item>
+		<item>摘要</item>
+	</string-array>
+	<string-array name="zr_trade_query_yzzz_index">
+		<item>FID_CLRQ</item>
+		<item>FID_CLSJ</item>
+		<item>FID_YHDM</item>
+		<item>FID_YHMC</item>
+		<item>FID_FSJE</item>
+		<item>FID_BCZJYE</item>
+		<item>FID_BZ</item>
+		<item>FID_JGSM</item>
+		<item>FID_SQH</item>
+		<item>FID_ZY</item>
+	</string-array>
+	<string-array name="zr_trade_query_zjdbyzzz_name">
+		<item>日期</item>
+		<item>发生时间</item>
+		<item>资金帐号</item>
+		<item>发生金额</item>
+		<item>本次余额</item>
+		<item>摘要</item>
+		<item>币种</item>
+	</string-array>
+	<string-array name="zr_trade_query_zjdbyzzz_index">
+		<item>FID_RQ</item>
+		<item>FID_FSSJ</item>
+		<item>FID_ZJZH</item>
+		<item>FID_FSJE</item>
+		<item>FID_BCZJYE</item>
+		<item>FID_ZY</item>
+		<item>FID_BZ</item>
+	</string-array>
+	<string-array name="zr_trade_modify_password_spinner">
+		<item>交易密码</item>
+		<item>资金密码</item>
+	</string-array>
+	<string-array name="zr_trade_stock__query_new_stock_match_name">
+		<item>配号日期</item>
+		<item>股东代码</item>
+		<item>证券代码</item>
+		<item>证券名称</item>
+		<item>起始配号</item>
+		<item>配号数量</item>
+	</string-array>
+	<string-array name="zr_trade_stock_query_new_stock_match_index">
+		<item>FID_CJRQ</item>
+		<item>FID_GDH</item>
+		<item>FID_ZQDM</item>
+		<item>FID_ZQMC</item>
+		<item>FID_CJBH</item>
+		<item>FID_CJSL</item>
+	</string-array>
+
+	<string-array name="zr_trade_stock_query_cancel_name">
+		<item>委托时间</item>
+		<item>股东代码</item>
+		<item>证券代码</item>
+		<item>证券名称</item>
+		<item>买卖标志</item>
+		<item>委托价格</item>
+		<item>委托数量</item>
+		<item>成交价格</item>
+		<item>成交数量</item>
+		<item>撤单数量</item>
+		<item>委托编号</item>
+		<item>状态说明</item>
+	</string-array>
+	<string-array name="zr_trade_stock_query_cancel_index">
+		<item>FID_WTSJ</item>
+		<item>FID_GDH</item>
+		<item>FID_ZQDM</item>
+		<item>FID_ZQMC</item>
+		<item>FID_WTLB</item>
+		<item>FID_WTJG</item>
+		<item>FID_WTSL</item>
+		<item>FID_CJJG</item>
+		<item>FID_CJSL</item>
+		<item>FID_CDSL</item>
+		<item>FID_WTH</item>
+		<item>FID_JGSM</item>
+	</string-array>
+
+	<string-array name="zr_trade_stock_query_buy_name">
+		<item>证券代码</item>
+		<item>证券名称</item>
+		<item>证券数量</item>
+		<item>库存数量</item>
+		<item>可卖数量</item>
+		<item>成本价格</item>
+		<item>当前价格</item>
+		<item>最新市值</item>
+		<item>浮动盈亏</item>
+		<item>股东代码</item>
+	</string-array>
+	<string-array name="zr_trade_stock_query_buy_index">
+		<item>stkcode</item>
+		<item>stkname</item>
+		<item>stkbal</item>
+		<item>stkqty</item>
+		<item>stkavl</item>
+		<item>costprice</item>
+		<item>lastprice</item>
+		<item>mktval</item>
+		<item>proincome</item>
+		<item>secuid</item>
+	</string-array>
+	<string-array name="zr_trade_stock_query_position_name">
+		<item>证券代码</item>
+		<item>证券名称</item>
+		<item>证券数量</item>
+		<item>可卖数量</item>
+		<item>冻结数量</item>
+		<item>参考保本价</item>
+		<item>当前价</item>
+		<item>最新市值</item>
+		<item>参考浮动盈亏</item>
+		<item>参考实现盈亏</item>
+		<item>参考浮动盈亏比例</item>
+		<item>股东代码</item>
+	</string-array>
+	<string-array name="zr_trade_stock_query_position_index">
+		<item>FID_ZQDM</item>
+		<item>FID_ZQMC</item>
+		<item>FID_JCCL</item>
+		<item>FID_KMCSL</item>
+		<item>FID_DJSL</item>
+		<item>FID_BBJ</item>
+		<item>FID_ZXJ</item>
+		<item>FID_ZXSZ</item>
+		<item>FID_TBFDYK</item>
+		<item>FID_LJYK</item>
+		<item>perincome</item>
+		<item>FID_GDH</item>
+	</string-array>
+	<string-array name="zr_trade_stock_query_drcj_name">
+		<item>成交时间</item>
+		<item>股东代码</item>
+		<item>证券代码</item>
+		<item>证券名称</item>
+		<item>买卖标志</item>
+		<item>成交价格</item>
+		<item>成交数量</item>
+		<item>发生金额</item>
+		<item>成交编号</item>
+	</string-array>
+	<string-array name="zr_trade_stock_query_drcj_index">
+		<item>FID_CJSJ</item>
+		<item>FID_GDH</item>
+		<item>FID_ZQDM</item>
+		<item>FID_ZQMC</item>
+		<item>FID_WTLB</item>
+		<item>FID_CJJG</item>
+		<item>FID_CJSL</item>
+		<item>FID_CJJE</item>
+		<item>FID_CJBH</item>
+	</string-array>
+	<string-array name="zr_trade_funds_details_name">
+		<item>资金账号</item>
+		<item>币种</item>
+		<item>资金余额</item>
+		<item>可用资金</item>
+		<item>可取资金</item>
+		<item>冻结资金</item>
+		<item>总资产</item>
+		<item>可转资金</item>
+		<item>账号属性说明</item>
+	</string-array>
+	<string-array name="zr_trade_funds_details_index">
+		<item>FID_ZJZH</item>
+		<item>FID_BZ</item>
+		<item>FID_ZHYE</item>
+		<item>FID_KYZJ</item>
+		<item>FID_KQZJ</item>
+		<item>FID_DJJE</item>
+		<item>FID_ZZC</item>
+		<item>FID_KZZJ</item>
+		<item>FID_ZZHBZ</item>
+	</string-array>
+	<string-array name="zr_trade_stock_query_lswt_name">
+		<item>委托日期</item>
+		<item>股东代码</item>
+		<item>证券代码</item>
+		<item>证券名称</item>
+		<item>买卖标志</item>
+		<item>委托价格</item>
+		<item>委托数量</item>
+		<item>成交价格</item>
+		<item>成交数量</item>
+		<item>撤单数量</item>
+		<item>委托编号</item>
+		<item>报价方式</item>
+	</string-array>
+	<string-array name="zr_trade_stock_query_lswt_index">
+		<item>FID_WTRQ</item>
+		<item>FID_GDH</item>
+		<item>FID_ZQDM</item>
+		<item>FID_ZQMC</item>
+		<item>bsflag</item>
+		<item>FID_WTJG</item>
+		<item>FID_WTSL</item>
+		<item>FID_CJJG</item>
+		<item>FID_CJSL</item>
+		<item>FID_CDSL</item>
+		<item>FID_WTH</item>
+		<item>FID_DDLX</item>
+	</string-array>
+	<string-array name="zr_trade_stock_query_lscj_name">
+		<item>成交日期</item>
+		<item>成交时间</item>
+		<item>证券代码</item>
+		<item>证券名称</item>
+		<item>买卖标志</item>
+		<item>委托价格</item>
+		<item>委托数量</item>
+		<item>委托编号</item>
+		<item>成交价格</item>
+		<item>成交数量</item>
+		<item>成交金额</item>
+		<item>成交编号</item>
+		<item>股东代码</item>
+	</string-array>
+	<string-array name="zr_trade_stock_query_lscj_index">
+		<item>FID_CJRQ</item>
+		<item>FID_CJSJ</item>
+		<item>FID_ZQDM</item>
+		<item>FID_ZQMC</item>
+		<item>FID_WTLB</item>
+		<item>FID_GDH</item>
+		<item>FID_GDH</item>
+		<item>FID_GDH</item>
+		<item>FID_CJJG</item>
+		<item>FID_CJSL</item>
+		<item>FID_YSJE</item>
+		<item>FID_CJBH</item>
+		<item>FID_GDH</item>
+	</string-array>
+	<string-array name="zr_trade_stock_query_drwt_name">
+		<item>委托时间</item>
+		<item>股东代码</item>
+		<item>证券代码</item>
+		<item>证券名称</item>
+		<item>买卖标志</item>
+		<item>委托价格</item>
+		<item>委托数量</item>
+		<item>成交价格</item>
+		<item>成交数量</item>
+		<item>撤单数量</item>
+		<item>委托编号</item>
+		<item>报价方式</item>
+		<item>状态说明</item>
+	</string-array>
+	<string-array name="zr_trade_stock_query_drwt_index">
+		<item>FID_WTSJ</item>
+		<item>FID_GDH</item>
+		<item>FID_ZQDM</item>
+		<item>FID_ZQMC</item>
+		<item>FID_WTLB</item>
+		<item>FID_WTJG</item>
+		<item>FID_WTSL</item>
+		<item>FID_CJJG</item>
+		<item>FID_CJSL</item>
+		<item>FID_CDSL</item>
+		<item>FID_WTH</item>
+		<item>FID_DDLX</item>
+		<item>FID_JGSM</item>
+	</string-array>
+	<string-array name="zr_trade_stock_query_jgd_name">
+		<item>成交日期</item>
+		<item>业务名称</item>
+		<item>证券代码</item>
+		<item>证券名称</item>
+		<item>成交价格</item>
+		<item>成交数量</item>
+		<item>剩余数量</item>
+		<item>成交金额</item>
+		<item>清算金额</item>
+		<item>剩余金额</item>
+		<item>净佣金</item>
+		<item>规费</item>
+		<item>印花税</item>
+		<item>过户费</item>
+		<item>结算费</item>
+		<item>成交编号</item>
+		<item>股东代码</item>
+	</string-array>
+	<string-array name="zr_trade_stock_query_jgd_index">
+		<item>bizdate</item>
+		<item>digestname</item>
+		<item>stkcode</item>
+		<item>stkname</item>
+		<item>matchprice</item>
+		<item>matchqty</item>
+		<item>stkbal</item>
+		<item>matchamt</item>
+		<item>fundeffect</item>
+		<item>fundbal</item>
+		<item>fee_jsxf</item>
+		<item>fee_jygf</item>
+		<item>fee_yhs</item>
+		<item>fee_ghf</item>
+		<item>fee_qsf</item>
+		<item>orderid</item>
+		<item>secuid</item>
+	</string-array>
+	<string-array name="zr_trade_stock_query_zjls_name">
+		<item>成交日期</item>
+		<item>成交时间</item>
+		<item>买卖标志</item>
+		<item>发生金额</item>
+		<item>剩余金额</item>
+		<item>摘要</item>
+		<item>币种</item>
+	</string-array>
+	<string-array name="zr_trade_stock_query_zjls_index">
+		<item>FID_RQ</item>
+		<item>FID_FSSJ</item>
+		<item>FID_YWKM</item>
+		<item>FID_FSJE</item>
+		<item>FID_BCZJYE</item>
+		<item>FID_ZY</item>
+		<item>FID_BZ</item>
+	</string-array>
+	<string-array name="zr_trade_stock_query_holder_name">
+		<item>股东代码</item>
+		<item>股东名称</item>
+		<item>市场类别</item>
+		<item>资金账号</item>
+	</string-array>
+	<string-array name="zr_trade_stock_query_holder_index">
+		<item>FID_GDH</item>
+		<item>FID_GDXM</item>
+		<item>FID_JYS</item>
+		<item>FID_JSZH</item>
+	</string-array>
+	<string-array name="todaytrust_colsname">
+		<item>基金名称</item>
+		<item>基金代码</item>
+		<item>委托日期</item>
+		<item>委托时间</item>
+		<item>公司代码</item>
+		<item>公司名称</item>
+		<item>委托份额</item>
+		<item>交易金额</item>
+		<item>委托编号</item>
+		<item>买卖标志</item>
+		<item>状态说明</item>
+	</string-array>
+
+	<string-array name="todaytrust_colsindex">
+	    <item>fundcode_name</item>
+		<item>FID_JJDM</item>
+		<item>FID_WTRQ</item>
+		<item>FID_WTSJ</item>
+		<item>FID_TADM</item>
+		<item>fundcompany_name</item>
+		<item>FID_WTFE</item>
+		<item>FID_WTJE</item>
+		<item>FID_WTH</item>
+		<item>FID_YWDM</item>
+		<item>FID_SBJG</item>
+	</string-array>
+
+	<string-array name="fundaccount_colsname">
+		<item>公司名称</item>
+		<item>公司代码</item>
+		<item>基金账户</item>
+		<item>股东名称</item>
+		<item>身份证号</item>
+		<item>状态说明</item>
+	</string-array>
+
+	<string-array name="fundaccount_colsindex">
+		<item>fundcompany_name</item>
+		<item>FID_TADM</item>
+		<item>FID_JJZH</item>
+		<item>FID_KHXM</item>
+		<item>FID_ZJBH</item>
+		<item>FID_ZHZT</item>
+	</string-array>
+
+	<string-array name="fundcompany_colsname">
+		<item>基金公司代码</item>
+		<item>基金公司名称</item>
+	</string-array>
+
+	<string-array name="fundcompany_colsindex">
+		<item>FID_TADM</item>
+		<item>FID_JGJC</item>
+	</string-array>
+
+	<string-array name="historyconclusion_colsname">
+		<item>成交日期</item>
+		<item>基金代码</item>
+		<item>基金名称</item>
+		<item>成交金额</item>
+		<item>成交份额</item>
+		<item>买卖标志</item>
+	</string-array>
+
+	<string-array name="historyconclusion_colsindex">
+		<item>FID_QRRQ</item>
+		<item>FID_JJDM</item>
+		<item>FID_JJJC</item>
+		<item>FID_QRJE</item>
+		<item>FID_QRFE</item>
+		<item>FID_YWMC</item>
+	</string-array>
+
+	<string-array name="historyTrust_colsname">
+		<item>委托日期</item>
+		<item>委托时间</item>
+		<item>基金公司代码</item>
+		<item>基金公司名称</item>
+		<item>基金代码</item>
+		<item>基金名称</item>
+		<item>委托份额</item>
+		<item>交易金额</item>
+		<item>委托编号</item>
+		<item>买卖标志</item>
+		<item>状态说明</item>
+	</string-array>
+
+	<string-array name="historyTrust_colsindex">
+		<item>FID_WTRQ</item>
+		<item>FID_WTSJ</item>
+		<item>FID_TADM</item>
+		<item>fundcompany_name</item>
+		<item>FID_JJDM</item>
+		<item>FID_JJJC</item>
+		<item>FID_WTFE</item>
+		<item>FID_WTJE</item>
+		<item>FID_SQBH</item>
+		<item>FID_YWDM</item>
+		<item>FID_SBJG</item>
+	</string-array>
+
+	<string-array name="fundportio_colsname">
+		<item>基金名称</item>
+		<item>基金代码</item>
+		<item>基金净值</item>
+		<item>当前数量</item>
+		<item>可用份额</item>
+		<item>持仓均价</item>
+		<item>最新市值</item>
+		<item>收费方式</item>
+		<item>分红方式</item>
+	<!--  
+		<item>基金代码</item>
+		<item>基金名称</item>
+		<item>基金净值</item>
+		<item>当前数量</item>
+		<item>可用份额</item>
+		<item>持仓均价</item>
+		<item>最新市值</item>
+		<item>收费方式</item>
+		<item>分红方式名称</item>
+		-->
+	</string-array>
+
+	<string-array name="fundportio_colsindex">
+		<item>FID_JJJC</item>
+		<item>FID_JJDM</item>
+		<item>fundcode_nav</item>
+		<item>FID_JJSL</item>
+		<item>FID_KYSL</item>
+		<item>FID_CCJJ</item>
+		<item>FID_ZXSZ</item>
+		<item>FID_SFFS</item>
+		<item>FID_FHFS</item>
+	<!--  
+		<item>FID_JJDM</item>
+		<item>FID_JJJC</item>
+		<item>fundcode_nav</item>
+		<item>FID_JJSL</item>
+		<item>FID_KYSL</item>
+		<item>FID_CCJJ</item>
+		<item>FID_ZXSZ</item>
+		<item>FID_SFFS</item>
+		<item>FID_FHFS</item>
+		-->
+	</string-array>
+
+	<string-array name="funddividmethod_colsname">
+		<item>分红转投</item>
+		<item>现金分红</item>
+	</string-array>
+
+	<string-array name="funddividmethod_colsindex">
+		<item>1</item>
+		<item>2</item>
+	</string-array>
+
+	<string-array name="fundopenaccount_colsname">
+		<item>首次开设基金账号</item>
+		<item>使用已有基金账号</item>
+	</string-array>
+
+	<string-array name="fundopenaccount_colsindex">
+		<item>0</item>
+		<item>1</item>
+	</string-array>
+
+	<string-array name="fundtransfer_methods">
+		<item>取消</item>
+		<item>顺延</item>
+	</string-array>
+	<string-array name="fundtransfer_methods_val">
+		<item>0</item>
+		<item>1</item>
+	</string-array>
+
+
+	<string-array name="gupiao_methods">
+		<item>买入</item>
+		<item>卖出</item>
+		<item>撤单</item>
+		<item>资金股份查询</item>
+		<item>当日委托</item>
+		<item>当日成交</item>
+		<item>历史委托</item>
+		<item>历史成交</item>
+		<item>资金流水</item>
+		<item>对账单查询</item>
+		<item>交割单查询</item>
+		<item>配号查询</item>
+		<item>权证行权</item>
+		<item>场内基金</item>
+		<item>银证转账</item>
+		<item>转账查询</item>
+		<item>银行余额</item>
+		<item>修改资料</item>
+
+
+		<item>修改密码</item>
+		<item>股东列表</item>
+	</string-array>
+
+	<string-array name="gupiao_methods_value">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+		<item>11</item>
+		<item>12</item>
+		<item>13</item>
+		<item>14</item>
+		<item>15</item>
+		<item>16</item>
+		<item>17</item>
+	</string-array>
+
+	<string-array name="fund_methods">
+		<item>认购</item>
+		<item>申购</item>
+		<item>赎回</item>
+		<item>撤单</item>
+		<item>基金转换</item>
+		<item>分红设置</item>
+		<item>基金份额查询</item>
+		<item>当日委托</item>
+		<item>历史委托</item>
+		<item>基金成交</item>
+		<item>基金账户</item>
+		<item>基金开户</item>
+		<item>风险测评</item>
+	</string-array>
+
+	<string-array name="fund_methods_value">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+		<item>11</item>
+		<item>12</item>
+	</string-array>
+
+
+	<string-array name="zhuanzhang_methods">
+		<item>银证转账</item>
+		<item>转账查询</item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+	</string-array>
+
+	<string-array name="zhuanzhang_methods_value">
+		<item>1</item>
+		<item>2</item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+	</string-array>
+	<string-array name="fund_list_menu">
+		<item>基金认购</item>
+		<item>基金申购</item>
+		<item>基金赎回</item>
+		<item>基金撤单</item>
+		<item>基金转换</item>
+		<item>份额查询</item>
+		<item>分红设置</item>
+		<item>分红查询</item>
+		<item>当日委托</item>
+		<item>当日成交</item>
+		<item>历史委托</item>
+		<item>历史成交</item>
+	</string-array>
+	<string-array name="stock_list_menu">
+		<item>委托买入</item>
+		<item>委托卖出</item>
+		<item>股票撤单</item>
+		<item>新股申购</item>
+		<item>权证行权</item>
+		<item>场内基金</item>
+		<item>资金查询</item>
+		<item>持仓查询</item>
+		<item>当日委托</item>
+		<item>当日成交</item>
+		<item>历史委托</item>
+		<item>历史成交</item>
+		<item>交割单查询</item>
+		<item>对账单查询</item>
+	</string-array>
+
+	<string-array name="stocktypefund_colsname">
+		<item>基金名称</item>
+		<item>净值</item>
+		<item>累计净值</item>
+		<item>基金3年评级</item>
+		<item>基金5年评级</item>
+	</string-array>
+	
+	<string-array name="monetary_colsname">
+		<item>基金名称</item>
+		<item>万份收益</item>
+		<item>七日年化收益率%</item>
+		<item>基金3年评级</item>
+		<item>基金5年评级</item>
+	</string-array>
+
+	<string-array name="global_market_colsname">
+		<item>名称</item>
+		<item>最新价格</item>
+		<item>涨跌</item>
+		<item>涨幅</item>
+	</string-array>
+	<string-array name ="fundquery_colsname">
+		<item>基金代码</item>
+		<item>基金名称</item>
+	</string-array>
+	
+	<string-array name="sunprivate_colsname">
+		<item>基金名称</item>
+		<item>净值</item>
+		<item>净值增长率</item>
+		<item>本年净值增长率</item>
+		<item>累计净值</item>
+		<item>累计净值增长率</item>
+		<item>年化收益率</item>
+	</string-array>
+	<string-array name="jingzhi_colsname">
+		<item>名称</item>
+		<item>最新净值</item>
+		<item>近一周净值增长率</item>
+		<item>累计净值</item>
+		<item>代码</item>
+	</string-array>
+   <string-array name="njzq_setting">
+		<item>委托数据清除</item>
+		<item>行情刷新时间</item>
+		<item>服务器设置</item>
+		<item>自定义快捷设置</item>
+		<item>系统锁定时间设置</item>
+		<item>帮助说明</item>
+	</string-array>
+	
+   <string-array name="njzq_fenleirefresh">
+		<item>3(秒)</item>
+		<item>5(秒)</item>
+		<item>10(秒)</item>
+		<item>30(秒)</item>
+	</string-array>	
+
+   <string-array name="njzq_zongherefresh">
+		<item>3(秒)</item>
+		<item>5(秒)</item>
+		<item>10(秒)</item>
+		<item>30(秒)</item>
+	</string-array>	
+
+   <string-array name="njzq_fenshirefresh">
+		<item>3(秒)</item>
+		<item>5(秒)</item>
+		<item>10(秒)</item>
+		<item>30(秒)</item>
+	</string-array>	
+
+   <string-array name="njzq_kxrefresh">
+		<item>3(秒)</item>
+		<item>5(秒)</item>
+		<item>10(秒)</item>
+		<item>30(秒)</item>
+	</string-array>	
+	<string-array name="jingzhi_xuanzename">
+		<item>近一周净值</item>
+		<item>近一月净值</item>
+		<item>近一季净值</item>
+		<item>近半年净值</item>
+		<item>近一年净值</item>
+	</string-array>
+
+	
+   <string-array name="njzq_yujingrefresh">
+		<item>3(秒)</item>
+		<item>5(秒)</item>
+		<item>10(秒)</item>
+		<item>30(秒)</item>
+	</string-array>		
+	
+   <string-array name="njzq_server">
+		<item>线路1</item>
+		<item>线路2</item>
+		<!--<item>测试1 58</item>
+		<item>多银行存管</item>
+	--></string-array>		
+
+   <string-array name="njzq_lock">
+		<item>1(分钟)</item>
+		<item>5(分钟)</item>
+		<item>10(分钟)</item>
+		<item>15(分钟)</item>
+		<item>30(分钟)</item>
+	</string-array>	
+	<string-array name="globalmarket_colsname">
+		<item>指数名称</item>
+		<item>最新指数</item>
+		<item>涨幅%</item>
+		<item>涨跌</item>
+		
+	</string-array>
+
+   <string-array name="njzq_baoJia">
+		<item>行情预警</item>
+		<item>我的自选</item>
+		<item>大盘指数</item>
+		<item>综合排名</item>
+		<item>个股查询</item>
+		<item>全球市场</item>
+		<item>分类报价</item>
+		<item>场外基金</item>
+	</string-array>	
+
+<string-array name="njzq_huDong">
+		<item>专家解盘</item>
+		<item>我的投资顾问</item>
+		<item>我的客户经理</item>
+		<item>在线客服</item>
+		<item>客服热线</item>
+		<item>广纳良言</item>
+		<item>常见问题</item>
+		<item>模拟炒股</item>
+	</string-array>	
+
+<string-array name="njzq_yyTing">
+		<item>预约开户</item>
+		<item>营业厅公告</item>
+		<item>营业网点</item>
+		<item>业务中心</item>
+		<item>投资者教育</item>
+		<item>推荐开户</item>
+	</string-array>	
+
+<string-array name="njzq_fengCai">
+		<item>宁证动态</item>
+		<item>走进宁证</item>
+		<item>精英汇</item>
+	</string-array>	
+	
+<string-array name="njzq_shangCheng">
+		<item>积分乐园</item>
+	</string-array>	
+
+<string-array name="njzq_luoPang">
+		<item>操盘必读</item>
+		<item>要闻直击</item>
+		<item>盘面护航</item>
+		<item>特供内参</item>
+		<item>资金流向</item>
+		<item>股歌gugle</item>
+	</string-array>	
+
+<string-array name="njzq_baoDian">
+		<item>精选证券池</item>
+		<item>投资组合</item>
+		<item>证券研究</item>
+		<item>期货研究</item>
+		<item>财富频道</item>
+	</string-array>	
+<string-array name="mci_education">
+		<item>博士</item>
+		<item>硕士</item>
+		<item>学士</item>
+		<item>大专</item>
+		<item>中专</item>
+		<item>高中</item>
+		<item>初中及其以下</item>
+		<item>其他</item>
+	</string-array>
+	<string-array name="mci_education_val">
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+	</string-array>
+	<string-array name="mci_job">
+		<item>文教科卫专业人员</item>
+		<item>党政机关干部</item>
+		<item>企事业单位干部</item>
+		<item>行政企事单位工人</item>
+		<item>农民</item>
+		<item>个体</item>
+		<item>无业</item>
+		<item>军人</item>
+		<item>其他</item>
+	</string-array>
+	<string-array name="mci_job_val">
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>99</item>
+	</string-array>	
+	<string-array name="njzq_default_setting">
+		<item>分类报价</item>
+		<item>营业厅公告</item>
+		<item>积分乐园</item>
+		<item>操盘必读,要闻直击,盘面护航</item>
+		<item>投资组合,证券研究</item>
+	</string-array>	
+	
+	<string-array name="njzq_clear_data">
+		<item>账户信息</item>
+		<item>服务密码</item>
+		<item>手机号码</item>
+		<item>缓存数据</item>
+	</string-array>
+	<string-array name="hkmainboard_colsname">
+		<item>代码</item>
+		<item>名称</item>
+		<item>现价</item>
+		<item>涨幅%</item>
+		<item>涨跌</item>
+		<item>总额</item>
+		<item>总量</item>
+		<item>现量</item>
+		<item>换手%</item>
+		<item>市盈率</item>
+		<item>市净率</item>
+		<item>买价</item>
+		<item>卖价</item>
+		<item>昨收</item>
+		<item>今开</item>
+		<item>最高</item>
+		<item>最低</item>
+		<item>委比%</item>
+		<item>委差</item>
+		<item>量比</item>
+		<item>每手股数</item>
+	</string-array>
+	
+	<string-array name="globalhuishi_cols">
+		<item>名称</item>
+		<item>现价</item>
+		<item>涨幅%</item>
+		<item>涨跌</item>
+	</string-array>
+</resources>

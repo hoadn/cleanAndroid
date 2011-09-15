@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:background="@drawable/njzq_main_fk_bg"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<include android:id="@+id/zr_headerBar" android:layout_width="fill_parent"
+		android:layout_height="@dimen/title_height" layout="@layout/zr_topbar" />
+	<RelativeLayout android:id="@+id/relativeLayout2"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:layout_below="@+id/zr_headerBar">
+		<ScrollView android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:fillViewport="true">
+			<LinearLayout android:padding="20.0dip"
+				android:layout_height="wrap_content" android:gravity="center_horizontal"
+				android:orientation="vertical" android:layout_width="fill_parent"
+				android:id="@+id/linearLayout1">
+
+				<TextView android:layout_width="fill_parent"
+					android:layout_height="wrap_content" android:text="行情报价"
+					android:layout_gravity="center"
+					android:gravity="center"
+					android:textColor="@color/zr_black"
+					android:textSize="17.0sp"></TextView>
+
+				<ListView android:layout_width="fill_parent"
+					android:layout_height="wrap_content" android:background="@drawable/setting_bg"
+					android:listSelector="@drawable/zrlistselectbg"
+					android:cacheColorHint="#00000000"
+					android:id="@+id/baojia"></ListView>
+
+
+				<TextView android:layout_width="fill_parent"
+					android:layout_height="wrap_content" android:text="在线互动"
+					android:layout_gravity="center"
+					android:gravity="center"
+					android:textColor="@color/zr_black"
+					android:textSize="17.0sp"></TextView>
+
+				<ListView android:layout_width="fill_parent"
+					android:layout_height="wrap_content" android:background="@drawable/setting_bg"
+					android:listSelector="@drawable/zrlistselectbg"
+					android:cacheColorHint="#00000000"
+					android:id="@+id/hudong"></ListView>
+
+				<TextView android:layout_width="fill_parent"
+					android:layout_height="wrap_content" android:text="掌上营业厅 "
+					android:layout_gravity="center"
+					android:gravity="center"
+					android:textColor="@color/zr_black"
+					android:textSize="17.0sp" android:paddingTop="5dip"></TextView>
+				<ListView android:layout_width="fill_parent"
+					android:layout_height="wrap_content" android:background="@drawable/setting_bg"
+					android:listSelector="@drawable/zrlistselectbg"
+					android:cacheColorHint="#00000000"
+					android:id="@+id/yyting"></ListView>
+
+				<TextView android:layout_width="fill_parent"
+					android:layout_height="wrap_content" android:text="宁证风采 "
+					android:layout_gravity="center"
+					android:gravity="center"
+					android:textColor="@color/zr_black"
+					android:textSize="17.0sp" android:paddingTop="5dip"></TextView>
+				<ListView android:layout_width="fill_parent"
+					android:layout_height="wrap_content" android:background="@drawable/setting_bg"
+					android:listSelector="@drawable/zrlistselectbg"
+					android:cacheColorHint="#00000000"
+					android:id="@+id/fengcai"></ListView>
+
+				<TextView android:layout_width="fill_parent"
+					android:layout_height="wrap_content" android:text="积分商城 "
+					android:layout_gravity="center"
+					android:gravity="center"
+					android:textColor="@color/zr_black"
+					android:textSize="17.0sp" android:paddingTop="5dip"></TextView>
+				<ListView android:layout_width="fill_parent"
+					android:layout_height="wrap_content" android:background="@drawable/setting_bg"
+					android:listSelector="@drawable/zrlistselectbg"
+					android:cacheColorHint="#00000000"
+					android:id="@+id/shangcheng"></ListView>
+
+
+				<TextView android:layout_width="fill_parent"
+					android:layout_height="wrap_content" android:text="咨询罗盘"
+					android:layout_gravity="center"
+					android:gravity="center"
+					android:textColor="@color/zr_black"
+					android:textSize="17.0sp" android:paddingTop="5dip"></TextView>
+				<ListView android:layout_width="fill_parent"
+					android:layout_height="wrap_content" android:background="@drawable/setting_bg"
+					android:listSelector="@drawable/zrlistselectbg"
+					android:cacheColorHint="#00000000"
+					android:id="@+id/luopang"></ListView>
+
+				<TextView android:layout_width="fill_parent"
+					android:layout_height="wrap_content" android:text="宁证宝典 "
+					android:layout_gravity="center"
+					android:gravity="center"
+					android:textColor="@color/zr_black"
+					android:textSize="17.0sp" android:paddingTop="5dip"></TextView>
+				<ListView android:layout_width="fill_parent"
+					android:layout_height="wrap_content" android:background="@drawable/setting_bg"
+					android:listSelector="@drawable/zrlistselectbg"
+					android:cacheColorHint="#00000000"
+					android:id="@+id/baodian"></ListView>
+			</LinearLayout>
+		</ScrollView>
+	</RelativeLayout>
+	<com.cssweb.android.custom.TransPanel
+		android:gravity="left" android:orientation="vertical" android:id="@+id/zr_popup_window"
+		android:visibility="gone" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_below="@+id/zr_headerBar">
+		<ListView android:id="@+id/zr_menulist" android:background="@drawable/zrlistback"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:listSelector="@drawable/zrlistselectbg"
+			android:cacheColorHint="#ff1d1d1d" android:divider="@drawable/zrlistfgx"
+			android:dividerHeight="2.0dip" android:keepScreenOn="true"
+			xmlns:android="http://schemas.android.com/apk/res/android" />
+	</com.cssweb.android.custom.TransPanel>
+</RelativeLayout>

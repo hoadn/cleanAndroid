@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:paddingBottom="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:id="@+id/zr_keybtn11" style="@style/zrkeybtnstyle" />
+            <Button android:id="@+id/zr_keybtn12" style="@style/zrkeybtnstyle" />
+            <Button android:id="@+id/zr_keybtn13" style="@style/zrkeybtnstyle" />
+            <Button android:id="@+id/zr_keybtn14" style="@style/zrkeybtnstyle" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:id="@+id/zr_keybtn21" style="@style/zrkeybtnstyle" />
+            <Button android:id="@+id/zr_keybtn22" style="@style/zrkeybtnstyle" />
+            <Button android:id="@+id/zr_keybtn23" style="@style/zrkeybtnstyle" />
+            <Button android:id="@+id/zr_keybtn24" style="@style/zrkeybtnstyle" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:id="@+id/zr_keybtn31" style="@style/zrkeybtnstyle" />
+            <Button android:id="@+id/zr_keybtn32" style="@style/zrkeybtnstyle" />
+            <Button android:id="@+id/zr_keybtn33" style="@style/zrkeybtnstyle" />
+            <Button android:id="@+id/zr_keybtn34" style="@style/zrkeybtnstyle" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:id="@+id/zr_keybtn41" style="@style/zrkeybtnstyle" />
+            <Button android:id="@+id/zr_keybtn42" style="@style/zrkeybtnstyle" />
+            <Button android:id="@+id/zr_keybtn43" style="@style/zrkeybtnstyle" />
+            <Button android:id="@+id/zr_keybtn44" style="@style/zrkeybtnstyle" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:id="@+id/zr_keybtn51" style="@style/zrkeybtnstyle" />
+            <Button android:id="@+id/zr_keybtn52" android:layout_width="@dimen/keyboard_width_ch_submit" style="@style/zrkeybtntogstyle" />
+            <Button android:id="@+id/zr_keybtn54" style="@style/zrkeybtntogstyle" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

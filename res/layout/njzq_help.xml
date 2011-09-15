@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:background="@drawable/njzq_main_fk_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@+id/zr_headerBar" android:layout_width="fill_parent" android:layout_height="@dimen/title_height" layout="@layout/zr_topbar" />
+   	<RelativeLayout android:id="@+id/relativeLayout2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@+id/zr_headerBar">
+   		<LinearLayout android:padding="20.0dip" android:layout_height="wrap_content" android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:id="@+id/linearLayout1">
+ 			<ImageView android:paddingTop="50.0dip" android:src="@drawable/njzq_sz_jlpbg" android:id="@+id/imageView1" android:layout_height="wrap_content" android:layout_width="wrap_content"/>
+ 			<TextView android:padding="10.0dip" android:text="@string/system_setting_title" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/zr_black" android:textSize="16.0sp"></TextView>
+ 			<TextView android:text="@string/system_setting_content" android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingLeft="40.0dip" android:paddingRight="40.0dip" android:textColor="@color/zr_black" android:textSize="18.0sp"></TextView>
+   		</LinearLayout>	
+    </RelativeLayout>
+   	<com.cssweb.android.custom.TransPanel
+		android:gravity="left" android:orientation="vertical" android:id="@+id/zr_popup_window"
+		android:visibility="gone" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_below="@+id/zr_headerBar">
+		<ListView android:id="@+id/zr_menulist" android:background="@drawable/zrlistback" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/zrlistselectbg" android:cacheColorHint="#ff1d1d1d" android:divider="@drawable/zrlistfgx" android:dividerHeight="2.0dip" android:keepScreenOn="true"
+             xmlns:android="http://schemas.android.com/apk/res/android" />
+	</com.cssweb.android.custom.TransPanel>
+</RelativeLayout>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.cssweb.android.main"
+      android:versionCode="1037" android:versionName="1.0.3">
+    <uses-sdk android:minSdkVersion="4" android:targetSdkVersion="10" />
+    
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.CALL_PHONE"/>
+	<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+	<uses-permission android:name="android.permission.INSTALL_PACKAGES"/>
+	<uses-permission android:name="android.permission.RESTART_PACKAGES"/>
+	<uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+　　 <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+　　 <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_GPS" />
+	<uses-permission android:name="android.permission.GET_TASKS" />
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name" android:theme="@android:style/Theme.NoTitleBar" 
+    			 android:name="com.cssweb.android.user.track.CssApplication">
+        <activity android:name=".SplashScreen"
+         		  android:screenOrientation="portrait"
+         		  android:clearTaskOnLaunch="true"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+       
+        
+		<activity android:name=".MainActivity" android:screenOrientation="portrait" android:clearTaskOnLaunch="true" />
+		<activity android:name=".JlpActivity" android:screenOrientation="portrait" />
+
+		<receiver android:name="com.cssweb.android.service.AutoReceiver" android:enabled="true"/>
+		<service android:name="com.cssweb.android.user.track.TrackService" />
+		<service  android:name="com.cssweb.android.service.AutoLoadAllStock" android:enabled="true"/>
+
+		<activity android:name="com.cssweb.android.sms.SMSJHActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan" android:clearTaskOnLaunch="true" />
+        
+		<activity android:name="com.cssweb.android.quote.SQS" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.quote.DSS" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.quote.ZSS" android:screenOrientation="portrait" />
+		
+		<activity android:name="com.cssweb.android.quote.ZJS" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.quote.QQSP" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.quote.QHSCGridActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.quote.QHSCBaseActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.quote.HSZS" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.quote.GlobalMarketActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.quote.OTCFundActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.quote.PaiMing" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.quote.DaPan" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.quote.FenLei" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.quote.QueryStock" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.quote.PersonalStock" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.quote.QuoteAlarm" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.quote.TrendActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.quote.KLineActivity" android:configChanges="orientation|keyboardHidden" />
+		<activity android:name="com.cssweb.android.quote.KLine2Activity" android:configChanges="orientation|keyboardHidden" />
+		<activity android:name="com.cssweb.android.quote.QuotePrice" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.quote.QuoteDetail" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.quote.GetF10List" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.quote.GetF10Content" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.quote.GlobalMarket" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.quote.FLineActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.quote.StockTypeFund" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.quote.FundQueryCondition" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.quote.FundQuery" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.quote.SunPrivate" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.quote.JingZhiQuery" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.quote.QuoteWarning" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.quote.QuoteSet" android:screenOrientation="portrait"  />
+		<activity android:name="com.cssweb.android.quote.QHHQActivity" android:screenOrientation="portrait"  />
+		<activity android:name="com.cssweb.android.quote.GGHQActivity" android:screenOrientation="portrait"  />
+		<activity android:name="com.cssweb.android.quote.HKMainboard" android:screenOrientation="portrait"  />
+		<activity android:name="com.cssweb.android.quote.GlobalHuiShi" android:screenOrientation="portrait"  />
+		<activity android:name="com.cssweb.android.quote.SunPrivateQueryCondition" android:screenOrientation="portrait"  />
+		<activity android:name="com.cssweb.android.quote.StockRadar" android:screenOrientation="portrait"  />
+		<activity android:name="com.cssweb.android.quote.StockRadarContent" android:screenOrientation="portrait"  />
+		
+		<activity android:name="com.cssweb.android.web.OpenHrefDisplay" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.web.WebViewDisplay" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.web.JxgpcActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.web.CfpdActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.web.OpenPdfDisplay" android:screenOrientation="portrait" />
+		
+		<activity android:name="com.cssweb.android.fzjy.VistualTrade" android:screenOrientation="portrait" />
+		
+		<activity android:name="com.cssweb.android.sz.ClearActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.sz.Setting" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.sz.HelpActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.sz.CustomSettingActivity" android:screenOrientation="portrait" />	
+		<activity android:name="com.cssweb.android.sz.HQRefreshSettingActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.sz.ServerSettingActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.sz.LockSettingActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.tyyh.ExperienceUsers" android:screenOrientation="portrait" />
+	
+		<activity android:name="com.cssweb.android.video.CustomMediaPlayer" android:screenOrientation="landscape"
+                  android:configChanges="keyboardHidden|orientation" android:theme="@android:style/Theme.NoTitleBar" />
+    	
+    	<activity android:name="com.cssweb.android.video.VideoPlayer" android:screenOrientation="portrait" />
+    	
+    	<activity android:name="com.cssweb.android.trade.CnjjActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.trade.FundActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.trade.BankActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.trade.TransferFundsActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.trade.user.AccountManage" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.trade.stock.GetDetails" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.trade.stock.GetDetailsH" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.trade.stock.StockTrading" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.trade.stock.GetPosition" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.trade.stock.StockCancel" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.trade.stock.AssetQuery" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.trade.stock.TodayEntrust" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.trade.stock.TodayDeal" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.trade.stock.ExchangeFund" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.trade.stock.StockWarrant" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.trade.stock.StockWarrant" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.util.DateRange" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.trade.stock.HistoryEntrust" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.trade.stock.HistoryDeal" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.trade.stock.Bill" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.trade.stock.NewStockMatch" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.trade.stock.ModifyPassword" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.trade.stock.StockList" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.trade.stock.ShareholderList" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.trade.login.LoginActivity" android:screenOrientation="portrait" clearTaskOnLaunch="true"/>
+		
+		<activity android:name="com.cssweb.android.trade.bank.TransferQuery" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.trade.bank.BankBalanceQuery" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.trade.bank.BankFundTransfer" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.trade.bank.FundBankTransfer" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.trade.bank.TransferDateRange" android:screenOrientation="portrait" />
+		
+		<activity android:name="com.cssweb.android.trade.transferFunds.FundsDetails" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.trade.transferFunds.ZfTransfer" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.trade.transferFunds.TransferFundsDateRange" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.trade.transferFunds.TransferFundsQuery" android:screenOrientation="portrait" />
+		
+		<activity android:name="com.cssweb.android.trade.stock.ModifyContactInfo" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+		
+		<activity android:name="com.cssweb.android.trade.fund.FundTrading" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.trade.fund.TodayTrust" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.trade.fund.FundTransfer" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.trade.fund.FundMelonSet" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.trade.fund.FundPortio" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.trade.fund.FundAccount" android:screenOrientation="portrait" />
+		
+		<activity android:name="com.cssweb.android.trade.fund.FundRiskTest" android:screenOrientation="portrait" />
+		
+		<activity android:name="com.cssweb.android.trade.fund.HistoryConclusion" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.trade.fund.HistoryTrust" android:screenOrientation="portrait" />
+		
+		<activity android:name="com.cssweb.android.trade.fund.FundCompany" android:screenOrientation="portrait" />
+		<activity android:name="com.cssweb.android.trade.fund.FundAccountForm" 
+				  android:screenOrientation="portrait"
+				  android:windowSoftInputMode="adjustPan"/>
+				  
+    </application>
+</manifest>

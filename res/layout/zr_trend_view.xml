@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:id="@+id/zrtechlayout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@+id/zr_headerBar" android:layout_width="fill_parent" android:layout_height="@dimen/title_height" layout="@layout/zr_topbar" />
+    <com.cssweb.android.view.TrendView android:id="@+id/zrviewtrend" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <FrameLayout android:layout_gravity="center_horizontal" android:layout_below="@+id/zrviewtrend" android:id="@+id/zr_layout_gallery" android:layout_width="wrap_content" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ViewFlipper android:id="@+id/trend_view_fliper" android:layout_width="fill_parent" android:layout_height="@dimen/tick_down_height">
+	        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	        	<com.cssweb.android.view.PriceMini android:id="@+id/zrviewprice" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+	        </LinearLayout>
+	        <com.cssweb.android.custom.CustomScrollView android:id="@+id/zr_htable_vscroll" android:layout_below="@id/zrviewtrend" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" >
+	        	<TableLayout android:id="@+id/zr_rt_tableview_1" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+		    </com.cssweb.android.custom.CustomScrollView>
+	        <LinearLayout android:orientation="horizontal"  android:layout_width="fill_parent" android:layout_height="wrap_content">
+	        	<com.cssweb.android.view.FinanceMini android:id="@+id/zrviewfinance" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+		    </LinearLayout>
+	    </ViewFlipper>
+         <ImageView
+		   android:id="@+id/previous_screen"
+		   android:layout_width="wrap_content"
+		   android:layout_height="wrap_content"
+		   android:layout_marginBottom="2.0dip"
+		   android:layout_gravity="bottom|center_horizontal"
+		   android:layout_centerHorizontal="true"
+		   android:scaleType="center"
+		   android:src="@drawable/page_arrow_11"
+		   android:layout_alignParentBottom="true"
+		   android:focusable="true"/>
+    </FrameLayout>
+    <include android:id="@+id/zrtoolbar" android:layout_alignParentBottom="true" layout="@layout/zr_toolbar2" />
+</LinearLayout>

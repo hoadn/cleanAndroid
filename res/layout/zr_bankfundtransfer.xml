@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@+id/zrtabhostlayout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+   <include android:id="@+id/zr_headerBar" android:layout_width="fill_parent" android:layout_height="@dimen/title_height" layout="@layout/zr_topbar" />
+	<ScrollView android:id="@+id/zryzzzscroll" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_below="@id/zr_headerBar"
+	  xmlns:android="http://schemas.android.com/apk/res/android">
+	    <LinearLayout android:id="@+id/zryzzzlayout" style="@style/zrtitlelinelaystyle">
+	       <LinearLayout android:id="@+id/zr_yzzz_layout_bank" style="@style/zrtexteditheaderstyle">
+	            <TextView android:id="@+id/zr_yzzz_label_bank" android:text="选择银行" android:textColor="@color/zr_orange" style="@style/zrtextviewstyle" />
+	            <Spinner android:paddingLeft="3dip" android:id="@+id/Bank" android:background="@drawable/zrspinnerbgwhitenew" android:layout_marginLeft="10.0dip"
+					 android:layout_width="fill_parent" android:layout_marginRight="10.0dip" android:layout_gravity="center"
+					android:layout_height="35dip" android:ellipsize="middle"/>
+	        </LinearLayout>
+	        <LinearLayout android:id="@+id/zr_yzzz_layout_bankpassword" style="@style/zrtexteditcenterstyle" android:paddingTop="5dip">
+	            <TextView android:id="@+id/zr_yzzz_label_bankpassword" android:text="银行密码" android:textColor="@color/zr_orange" style="@style/zrtextviewstyle" />
+	            <EditText android:id="@+id/BankPwd" android:hint="银行密码" android:enabled="true" android:password="true" android:numeric="decimal" style="@style/zreditfillstyle" />
+	        </LinearLayout>
+	        <LinearLayout android:id="@+id/zr_yzzz_layout_password" style="@style/zrtexteditcenterstyle">
+	            <TextView android:id="@+id/zr_yzzz_label_fundpassword" android:text="资金密码" android:textColor="@color/zr_orange" style="@style/zrtextviewstyle" />
+	            <EditText android:id="@+id/FundPwd" android:hint="资金密码" android:enabled="true" android:password="true" android:numeric="decimal" style="@style/zreditfillstyle" />
+	        </LinearLayout> 
+	        <LinearLayout android:id="@+id/zr_yzzz_layout_currency" style="@style/zrtexteditcenterstyle">
+	            <TextView android:id="@+id/zr_yzzz_label_currency" android:text="选择币种" android:textColor="@color/zr_orange" style="@style/zrtextviewstyle" />
+	          	<Spinner android:paddingLeft="3dip" android:id="@+id/Currency" android:background="@drawable/zrspinnerbgwhitenew" android:layout_marginLeft="10.0dip"
+					 android:layout_width="fill_parent" android:layout_marginRight="10.0dip" android:layout_gravity="center"
+					android:layout_height="40dip" android:ellipsize="middle"/>
+	        </LinearLayout>
+	        <LinearLayout android:id="@+id/zr_yzzz_layout_amount" style="@style/zrtexteditfooterstyle">
+	            <TextView android:id="@+id/zr_yzzz_label_amount" android:text="转帐金额" android:textColor="@color/zr_orange" style="@style/zrtextviewstyle" />
+	            <EditText android:id="@+id/Amount" android:hint="转帐金额" android:numeric="decimal" style="@style/zreditfillstyle">
+	                <requestFocus />
+	            </EditText>
+	        </LinearLayout>
+	        <LinearLayout android:layout_height="220.0dip" style="@style/zrtitlelinelaystyle" />
+	    </LinearLayout>
+	</ScrollView>
+	<LinearLayout android:id="@+id/linearyout2" android:layout_width="fill_parent"  android:layout_alignParentBottom="true" 	android:layout_height="wrap_content" >
+  		<include android:id="@+id/zrtoolbar" layout="@layout/zr_toolbar2"    />
+  	</LinearLayout>
+	<com.cssweb.android.custom.TransPanel
+		android:gravity="left" android:orientation="vertical" android:id="@+id/zr_popup_window"
+		android:visibility="gone" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_below="@+id/zr_headerBar">
+		<ListView android:id="@+id/zr_menulist" android:background="@drawable/zrlistback" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/zrlistselectbg" android:cacheColorHint="#ff1d1d1d" android:divider="@drawable/zrlistfgx" android:dividerHeight="2.0dip" android:keepScreenOn="true"
+             xmlns:android="http://schemas.android.com/apk/res/android" />
+	</com.cssweb.android.custom.TransPanel>
+</RelativeLayout>

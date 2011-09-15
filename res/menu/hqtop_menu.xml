@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/zr_hq_menu" android:title="菜单">
+        <menu>
+            <item android:id="@+id/zr_hq_mystock_set" android:title="自选设置" />
+            <item android:id="@+id/zr_hq_mystock" android:title="我的自选" />
+            <item android:id="@+id/zr_hq_queryfund" android:title="基金查询" android:visible="false" />
+            <item android:id="@+id/zr_hq_addstock" android:title="加入自选" />
+            <item android:id="@+id/zr_hq_fundtrade" android:title="基金交易" />
+            <item android:id="@+id/zr_hq_quickbuy" android:title="委托买入" />
+            <item android:id="@+id/zr_hq_quicksale" android:title="委托卖出" />
+            <item android:id="@+id/zr_hq_revocation" android:title="快速撤单" />
+           <item android:id="@+id/zr_hq_chicang" android:title="导入持仓股"  android:visible="false"/>
+            <item android:id="@+id/zr_hq_boom" android:title="信息地雷" />
+            <item android:id="@+id/zr_hq_gugle" android:title="股歌gugle" />
+            <item android:id="@+id/zr_hq_remove" android:title="移除" />
+            <item android:id="@+id/zr_index" android:title="返回首页" />
+            <item android:id="@+id/zr_cancel" android:title="取消选择" />
+        </menu>
+    </item>
+</menu>

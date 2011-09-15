@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<style name="map_BubblePrimary">
+		<item name="android:textStyle">bold</item>
+		<item name="android:typeface">monospace</item>
+		<item name="android:textColor">#000</item>
+	</style>
+	<style name="map_BubbleSecondary">
+		<item name="android:textStyle">italic</item>
+		<item name="android:textColor">#000</item>
+	</style>
+	<style name="zrkeybtnstyle">
+		<item name="android:textSize">24.0sp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">#ff444444</item>
+		<item name="android:gravity">center</item>
+		<item name="android:layout_gravity">center_vertical</item>
+		<item name="android:background">@drawable/zrkeybuttonbg</item>
+		<item name="android:layout_width">@dimen/keyboard_width_ch
+		</item>
+		<item name="android:layout_height">46.0dip</item>
+		<item name="android:text"></item>
+	</style>
+
+	<style name="zrkeybtnstyle_en">
+		<item name="android:textSize">24.0sp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">#ff444444</item>
+		<item name="android:gravity">center</item>
+		<item name="android:layout_gravity">center_vertical</item>
+		<item name="android:background">@drawable/zrkeybuttonbg</item>
+		<item name="android:layout_width">@dimen/keyboard_width_en
+		</item>
+		<item name="android:layout_height">46.0dip</item>
+		<item name="android:text"></item>
+	</style>
+
+	<style name="zrkeybtnstyle_enend">
+		<item name="android:textSize">24.0sp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">#ff444444</item>
+		<item name="android:gravity">center</item>
+		<item name="android:layout_gravity">center_vertical</item>
+		<item name="android:background">@drawable/zrkeybuttonbg</item>
+		<item name="android:layout_width">@dimen/keyboard_width_enend
+		</item>
+		<item name="android:layout_height">46.0dip</item>
+		<item name="android:text"></item>
+	</style>
+
+	<style name="zrkeynumbtnstyle_del_ch" parent="@style/zrkeybtnstyle">
+		<item name="android:textColor">@color/zr_white</item>
+		<item name="android:background">@drawable/zrkeybuttontogbg
+		</item>
+	</style>
+
+	<style name="zrkeynumbtnstyle_del_en" parent="@style/zrkeybtnstyle_en">
+		<item name="android:textColor">@color/zr_white</item>
+		<item name="android:background">@drawable/zrkeybuttontogbg
+		</item>
+	</style>
+
+	<style name="loginpage_TextView01">
+		<item name="android:textSize">16.0sp</item>
+		<item name="android:textColor">#ff3f3f3f</item>
+	</style>
+	<style name="zrkeybtntogstyle" parent="@style/zrkeybtnstyle">
+		<item name="android:textColor">@color/zr_white</item>
+		<item name="android:background">@drawable/zrkeybuttontogbg
+		</item>
+	</style>
+	<style name="zrkeynumbtnstyle" parent="@style/zrkeybtnstyle">
+		<item name="android:layout_width">107.0dip</item>
+		<item name="android:layout_height">55.0dip</item>
+	</style>
+	<style name="zrkeynumbtntogstyle" parent="@style/zrkeynumbtnstyle">
+		<item name="android:textColor">@color/zr_white</item>
+		<item name="android:background">@drawable/zrkeybuttontogbg</item>
+	</style>
+	<style name="zrtoolbarbtnstyle">
+		<item name="android:gravity">center</item>
+		<item name="android:layout_gravity">center_vertical</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:ellipsize">marquee</item>
+		<item name="android:background">@drawable/zrsettoolbarbg</item>
+		<item name="android:layout_weight">1.0</item>
+		<item name="android:visibility">gone</item>
+		<item name="android:layout_alignParentBottom">true</item>
+	</style>
+	<style name="zrtoolbarstyle">
+		<item name="android:textSize">18.0sp</item>
+		<item name="android:textColor">@color/zrwhite2</item>
+		<item name="android:gravity">center</item>
+		<item name="android:layout_gravity">center_vertical</item>
+		<item name="android:background">@drawable/zrsettoolbarbg</item>
+		<item name="android:visibility">gone</item>
+		<item name="android:layout_width">0.0dip</item>
+		<item name="android:layout_height">fill_parent</item>
+		<item name="android:layout_weight">1.0</item>
+	</style>
+	<style name="zrtitlelinelaystyle">
+		<item name="android:orientation">vertical</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:paddingTop">30dip</item>
+		<item name="android:paddingLeft">15dip</item>
+		<item name="android:paddingRight">15dip</item>
+	</style>
+	<style name="zropenfundtitlelinelaystyle">
+		<item name="android:orientation">vertical</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:paddingTop">15dip</item>
+		<item name="android:paddingLeft">15dip</item>
+		<item name="android:paddingRight">15dip</item>
+	</style>
+	<style name="zrtextviewtipstyle">
+		<item name="android:gravity">left|center</item>
+		<item name="android:layout_gravity">center_vertical</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:singleLine">true</item>
+	</style>
+	<style name="zrtitleviewstyle" parent="@style/zrtextviewtipstyle">
+		<item name="android:textSize">22.0sp</item>
+		<item name="android:textColor">@color/zr_yellow</item>
+		<item name="android:paddingLeft">20.0dip</item>
+		<item name="android:layout_marginTop">10.0dip</item>
+	</style>
+	<style name="zrtextviewnopadstyle" parent="@style/zrtextviewtipstyle">
+		<item name="android:textColor">@color/zr_orange</item>
+		<item name="android:paddingLeft">5.0dip</item>
+		<item name="android:paddingTop">1.0dip</item>
+		<item name="android:paddingRight">5.0dip</item>
+		<item name="android:paddingBottom">1.0dip</item>
+		<item name="android:layout_width">wrap_content</item>
+	</style>
+	<style name="zrtexteditlayoutnopadstyle">
+		<item name="android:orientation">horizontal</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+	<style name="zrfundtexteditlayoutnopadstyle">
+		<item name="android:orientation">horizontal</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">50dip</item>
+	</style>
+	<style name="zrtexteditheaderstyle" parent="@style/zrfundtexteditlayoutnopadstyle">
+		<item name="android:background">@drawable/zrtablegroupcellheader
+		</item>
+	</style>
+	<style name="zrtextviewstyle" parent="@style/zrtextviewnopadstyle">
+		<item name="android:textSize">18.0sp</item>
+		<item name="android:gravity">right|center</item>
+	</style>
+	<style name="zrvaluebasestyle">
+		<item name="android:gravity">left|center</item>
+		<item name="android:layout_gravity">center_vertical</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:singleLine">true</item>
+	</style>
+	<style name="zrtextnopadstyle" parent="@style/zrvaluebasestyle">
+		<item name="android:textSize">18.0sp</item>
+		<item name="android:paddingLeft">10.0dip</item>
+		<item name="android:paddingTop">1.0dip</item>
+		<item name="android:paddingRight">5.0dip</item>
+		<item name="android:paddingBottom">1.0dip</item>
+	</style>
+	<style name="zreditnopadstyle" parent="@style/zrtextnopadstyle">
+		<item name="android:background">@drawable/forminput</item>
+	</style>
+	<style name="zreditstyle" parent="@style/zreditnopadstyle">
+		<item name="android:layout_marginLeft">10.0dip</item>
+	</style>
+	<style name="zreditfillstyle" parent="@style/zreditstyle">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_marginRight">10.0dip</item>
+	</style>
+	<style name="zrstockeditstyle">
+		<item name="android:background">@drawable/forminput</item>
+		<item name="android:paddingLeft">5.0dip</item>
+	</style>
+
+	<style name="zrtexteditlayoutstyle" parent="@style/zrtexteditlayoutnopadstyle">
+		<item name="android:paddingLeft">5.0dip</item>
+		<item name="android:paddingTop">1.0dip</item>
+		<item name="android:paddingRight">0.0dip</item>
+		<item name="android:paddingBottom">1.0dip</item>
+	</style>
+
+	<style name="zr_trade_input_adjust_down_style">
+		<item name="android:layout_width">32.0dip</item>
+		<item name="android:layout_height">32.0dip</item>
+		<item name="android:layout_marginTop">5.0dip</item>
+		<item name="android:background">@drawable/zr_adjust_down
+		</item>
+	</style>
+	<style name="zr_trade_input_adjust_up_style">
+		<item name="android:layout_width">32.0dip</item>
+		<item name="android:layout_height">32.0dip</item>
+		<item name="android:layout_marginTop">5.0dip</item>
+		<item name="android:background">@drawable/zr_adjust_up</item>
+	</style>
+
+
+	<style name="zrspinnernopadstyle" parent="@style/zrtextnopadstyle">
+		<item name="android:background">@drawable/zrspinnerbg</item>
+		<item name="android:drawSelectorOnTop">true</item>
+	</style>
+	<style name="zrspinnerstyle" parent="@style/zrspinnernopadstyle">
+		<item name="android:layout_marginLeft">10.0dip</item>
+	</style>
+	<style name="zrspinnerfillstyle" parent="@style/zrspinnerstyle">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_marginRight">10.0dip</item>
+	</style>
+	<style name="zrtexteditcenterstyle" parent="@style/zrfundtexteditlayoutnopadstyle">
+		<item name="android:background">@drawable/zrtablegroupcellcenter</item>
+	</style>
+	<style name="zr_trade_textview_orange">
+		<item name="android:paddingLeft">5.0dip</item>
+		<item name="android:paddingTop">1.0dip</item>
+		<item name="android:paddingRight">5.0dip</item>
+		<item name="android:paddingBottom">1.0dip</item>
+		<item name="android:layout_marginRight">10.0dip</item>
+		<item name="android:layout_marginLeft">10.0dip</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">50.0dip</item>
+		<item name="android:textSize">18sp</item>
+		<item name="android:gravity">right|center</item>
+		<item name="android:textColor">@color/zr_orange</item>
+	</style>
+	<style name="zr_trade_textview_zr_white">
+		<item name="android:textSize">18.0sp</item>
+		<item name="android:textColor">@color/zr_white</item>
+		<item name="android:paddingLeft">5.0dip</item>
+		<item name="android:paddingTop">1.0dip</item>
+		<item name="android:paddingRight">5.0dip</item>
+		<item name="android:paddingBottom">1.0dip</item>
+		<item name="android:gravity">left|center</item>
+		<item name="android:layout_gravity">center_vertical</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:singleLine">true</item>
+	</style>
+	<style name="zrtexteditfooterstyle" parent="@style/zrfundtexteditlayoutnopadstyle">
+		<item name="android:background">@drawable/zrtablegroupcellfooter
+		</item>
+	</style>
+	<style name="zrtexteditfooterstyle2" parent="@style/zrfundtexteditlayoutnopadstyle">
+		<item name="android:background">@drawable/zrtablegroupcellfooter
+		</item>
+	</style>
+	<style name="zrfundtexteditfooterstyle" parent="@style/zrtexteditlayoutnopadstyle">
+		<item name="android:background">@drawable/zrtablegroupcellfooter
+		</item>
+	</style>
+
+	<style name="PopupAnimation" parent="android:Animation"
+		mce_bogus="1">
+		<item name="android:windowEnterAnimation">@anim/csskey_show</item>
+		<item name="android:windowExitAnimation">@anim/csskey_hide</item>
+	</style>
+
+	<style name="PopupAnimation_exit" parent="android:Animation"
+		mce_bogus="1">
+		<item name="android:windowExitAnimation">@anim/csskey_hide</item>
+	</style>
+
+	<style name="NewTheme">
+		<item name="android:background">@drawable/background</item>
+	</style>
+
+</resources>

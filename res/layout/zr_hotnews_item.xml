@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout
+	android:gravity="center_vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="50.0dip"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<ImageView
+		android:id="@+id/zr_hotjf_img"
+		android:paddingLeft="10.0dip"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="4.0dip"
+		android:layout_marginTop="7.0dip"
+		android:src="@drawable/zr_cutodayhospotdot" />
+	<TextView
+		android:textSize="18.0dip"
+		android:textColor="@color/zr_white_alpha"
+		android:id="@+id/zr_hotjf_title"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="6.0dip"
+		android:singleLine="true"
+		android:layout_toRightOf="@+id/zr_hotjf_img"
+		android:ellipsize="end"
+		android:marqueeRepeatLimit="marquee_forever"
+		android:scrollHorizontally="true" />
+	<TextView
+		android:textSize="16.0dip"
+		android:textColor="@color/zr_blue"
+		android:id="@+id/zr_hotjf_date"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="6.0dip"
+		android:layout_marginRight="10.0dip"
+		android:singleLine="true"
+		android:layout_below="@+id/zr_hotjf_title"
+		android:layout_alignParentRight="true" />
+		
+		<TextView
+			android:id="@+id/row"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:visibility="gone">
+		</TextView>
+		
+	<!-- <ImageView android:layout_width="fill_parent" android:layout_height="2.0dip" 
+		android:layout_marginTop="5.0dip" android:src="@drawable/zr_fengexian" android:scaleType="fitXY" 
+		android:layout_below="@+id/zr_hotjf_date" android:layout_alignParentBottom="true" 
+		/> -->
+</RelativeLayout>

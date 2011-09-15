@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+
+
+
+/*Notice*/
+h2.tt1 { position:relative; height:36px; line-height:36px; font-size:16px;background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #9f0303),color-stop(0.9, #6d0000),color-stop(1, #420606)); padding-left:28px;color:#fff; text-shadow:1px 1px 1px rgba(0,0,0,0.75);}
+h2.tt1 s{ width:10px; height:10px; top:12px; left:10px; background:#d65d5d}
+h2.tt1 span.more a{position:absolute; right:5px; top:0;font-size:14px;display:block; width:75px; height:30px;line-height:30px; text-align:center; color:#333;border-bottom-left-radius:10px;border-bottom-right-radius:10px;background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #fff),color-stop(0.5, #c9c9c9),color-stop(0.5, #dadada),color-stop(0.9, #aaaaaa),color-stop(1, #686868)); -webkit-box-shadow:0 -2px 2px #666 inset;}
+
+h3.tt2 { height:39px; background:#333; padding-top:5px;background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #ccc),color-stop(1, #eee));} 
+h3.tt2 a { display:block; width:110px; height:34px; line-height:34px; margin:0 auto; text-align:center; font-size:14px; background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #d74242),color-stop(1, #790909)); color:#fff;border-radius:10px;}
+
+
+
+/*股搜*/
+.searchGu { position:relative;}
+.searchGu i.search { display:block; width:23px; height:23px; margin:0 auto; background:url(../pic/icon_search.png) no-repeat center center; margin-left:17px; margin-top:5px;}
+.searchGu .inp1 {position:absolute;left:5px;top:7px; width:125px; text-align:center;}
+.searchGu .inp2 {position:absolute;left:5px;top:7px; width:220px; text-align:center;}
+.searchGu .inp3 {position:absolute;left:5px;top:7px; width:113px; text-align:center;}
+.searchGu .inp4 {position:absolute;left:130px;top:7px; width:113px; text-align:center;}
+.searchGu .sub1{ width:60px; left:150px; top:3px; position:absolute;}
+.searchGu .sub2{ width:95px; left:218px;top:3px;position:absolute;}
+.searchGu .sub3{ width:60px; left:230px;top:3px;position:absolute;}
+.star_level{ width:160px; height:1%; overflow:hidden; margin:20px auto 0; text-align:center;}
+.star_level dt,.star_level dd{ height:30px; line-height:30px;}
+.star_level dd{ padding-left:20px;}
+.star_level dd p{ width:23px; height:23px; display:block; float:left; margin-right:2px;}
+
+.foottips{ margin:10px; padding:10px;}
+.foottips h3{ font-size:16px; margin-bottom:5px;}
+.foottips p{ line-height:1.2em; margin-bottom:10px;}
+
+
+
+
+/*durationTab*/
+.durationTab{}
+.durationTab td.th{ height:40px; overflow:hidden;font-size:14px;}
+.stockDrwtTitle{position: absolute ;z-index: 20px;font-size:14px;}
+.stockDrwtTitle .tab_style1{ width:78px; border-right:1px solid #ccc;-moz-box-shadow:1px 1px 1px rgba(0, 0, 0, .6); -webkit-box-shadow:1px 1px 5px rgba(0, 0, 0, .6); box-shadow:1px 1px 1px rgba(0, 0, 0, .6);font-size:14px;}
+
+.stockDrwtContent{ -webkit-transition-duration:0.5s;font-size:14px;}
+.stockDrwtContent td{ width:80px;font-size:14px;}

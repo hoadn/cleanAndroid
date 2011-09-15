@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/njzq_main_jlp" android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@drawable/njzq_main_fk_bg">
+	<include android:id="@+id/zr_headerBar" android:layout_width="fill_parent"
+		android:layout_height="@dimen/title_height" layout="@layout/zr_topbar" />
+
+	<LinearLayout android:id="@+id/linearLayout1" android:layout_marginTop="1dip"
+		android:orientation="vertical" android:layout_width="fill_parent"
+		android:layout_height="340dip" android:gravity="center_horizontal|center_vertical"
+		android:background="@drawable/njzq_jyyh_login_bg"
+		android:layout_weight="1" android:layout_below="@id/zr_headerBar">
+		<LinearLayout android:orientation="horizontal"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:paddingTop="7dip" android:gravity="center_horizontal">
+			<Button android:id="@+id/button1" android:layout_width="140dip"
+				android:layout_height="45dip" android:text="服务密码登录" android:textSize="20sp"
+				android:background="@drawable/loginbuttonselector1">
+			</Button>
+			<Button android:id="@+id/button2" android:layout_width="140dip"
+				android:layout_height="45dip" android:text="交易密码登录" android:textSize="20sp"
+				android:paddingLeft="0dip" android:background="@drawable/loginbuttonselector2">
+			</Button>
+		</LinearLayout>
+		<LinearLayout android:orientation="vertical" 
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:gravity="center_horizontal">
+			<RelativeLayout android:id="@+id/njzq_trade_login_Relativelayout1" 
+				android:layout_width="fill_parent" android:layout_height="wrap_content"   
+				android:gravity="center_horizontal">
+				<AutoCompleteTextView android:id="@+id/fundid"
+					android:layout_width="258dip" android:layout_height="wrap_content"
+					android:background="@drawable/njzq_tyyh_input"
+					android:layout_gravity="center_horizontal"
+					android:layout_marginTop="14dip" android:paddingLeft="45.0dip"
+					android:cacheColorHint="#00000000" android:phoneNumber="true">
+				</AutoCompleteTextView>
+
+				<TextView android:gravity="center_vertical" android:id="@+id/TextView01"
+					android:paddingLeft="7.0dip" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:layout_marginRight="15.0dip"
+					android:text="@string/strAccInputLabel" android:layout_alignLeft="@id/fundid"
+					android:layout_alignTop="@id/fundid" android:layout_alignBottom="@id/fundid"
+					style="@style/loginpage_TextView01" />
+
+				<ImageButton android:id="@+id/loginFundIdImg"
+					android:background="@drawable/more_select" android:layout_width="42dip"
+					android:layout_height="42dip" android:layout_alignTop="@+id/fundid"
+					android:layout_alignRight="@+id/fundid" android:layout_alignBottom="@+id/fundid" />
+			</RelativeLayout>
+			<RelativeLayout android:id="@+id/njzq_trade_login_Relativelayout2" android:layout_marginTop="-10dip"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:gravity="center_horizontal">
+
+				<EditText android:id="@+id/pwd" android:layout_width="258dip"
+					android:paddingLeft="77.0dip" android:layout_height="wrap_content"
+					android:background="@drawable/njzq_tyyh_input"
+					android:layout_gravity="center_horizontal"
+					android:layout_marginTop="14dip" android:password="true">
+				</EditText>
+
+				<TextView android:gravity="center_vertical" android:id="@+id/TextView02"
+					android:paddingLeft="7.0dip" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:layout_marginRight="15.0dip"
+					android:text="@string/strPswInputLabel" android:layout_alignLeft="@id/pwd"
+					android:layout_alignTop="@id/pwd" android:layout_alignBottom="@id/pwd"
+					style="@style/loginpage_TextView01" />
+
+
+				<ImageButton android:id="@+id/loginPwdDelImg"
+					android:background="@drawable/zr_trade_pwd_del"
+					android:layout_width="45dip" android:layout_height="42dip"
+					android:layout_alignTop="@+id/pwd" android:layout_alignRight="@+id/pwd"
+					android:layout_alignBottom="@+id/pwd" />
+
+			</RelativeLayout>
+
+			<TextView android:id="@+id/label" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="首次登录 服务密码和交易密码相同"
+				android:textColor="@color/zr_white" android:layout_gravity="center_horizontal"
+				android:layout_marginTop="8dip" android:textSize="18sp">
+			</TextView>
+
+
+			<LinearLayout android:orientation="horizontal"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:gravity="center_horizontal" android:layout_marginTop="8dip">
+				<TextView android:id="@+id/label2" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:text="保存账户"
+					android:textColor="@color/zr_white" android:textSize="18sp">
+				</TextView>
+				<!--
+				<CheckBox android:id="@+id/checkbox" android:checked="false"
+					android:layout_width="wrap_content" android:layout_height="wrap_content">
+				</CheckBox>
+				 -->
+				 <com.cssweb.android.ui.view.CheckBoxView android:id="@+id/checkbox" android:paddingLeft="5.0dip"
+					android:layout_width="wrap_content" android:layout_height="wrap_content" />
+			</LinearLayout>
+			<LinearLayout android:orientation="horizontal"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:gravity="center_horizontal" android:layout_marginTop="8dip">
+				<!-- 保存密码 -->
+
+				<TextView android:id="@+id/label3" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:text="保存密码"
+					android:textColor="@color/zr_white" android:textSize="18sp"
+					android:visibility="invisible">
+				</TextView>
+				<!--
+				<CheckBox android:id="@+id/savepsd" android:checked="false"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:visibility="gone"
+					/>
+				-->
+				<com.cssweb.android.ui.view.CheckBoxView android:id="@+id/savepsd" android:paddingLeft="5.0dip"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:visibility="invisible"
+					/>
+			</LinearLayout>
+			
+
+			
+			<Button android:id="@+id/surebutton" android:layout_width="wrap_content" android:layout_marginTop="8dip"
+				android:layout_height="wrap_content" android:background="@drawable/zr_trade_submitbtn"
+				android:layout_gravity="center_horizontal">
+			</Button>
+			
+
+			
+
+		</LinearLayout>
+	</LinearLayout>
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:layout_below="@id/linearLayout1" android:gravity="center_horizontal|center_vertical">
+		<Button android:id="@+id/buttonpwd" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:background="@drawable/njzq_tyyh_zhmm">
+		</Button>
+		<Button android:id="@+id/buttonkaihu" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:background="@drawable/njzq_tyyh_yykh"
+			android:layout_marginLeft="9dip">
+		</Button>
+		<Button android:id="@+id/buttonshen" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:background="@drawable/njzq_tyyh_sqtyk"
+			android:layout_marginLeft="9dip">
+		</Button>
+	</LinearLayout>
+
+	<com.cssweb.android.custom.TransPanel
+		android:gravity="left" android:orientation="vertical" android:id="@+id/zr_popup_window"
+		android:visibility="gone" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_below="@id/zr_headerBar">
+		<ListView android:id="@+id/zr_menulist" android:background="@drawable/zrlistback"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:listSelector="@drawable/zrlistselectbg"
+			android:cacheColorHint="#ff1d1d1d" android:divider="@drawable/zrlistfgx"
+			android:dividerHeight="2.0dip" android:keepScreenOn="true"
+			xmlns:android="http://schemas.android.com/apk/res/android" />
+	</com.cssweb.android.custom.TransPanel>
+</RelativeLayout>

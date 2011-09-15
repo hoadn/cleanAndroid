@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TableRow android:id="@+id/zr_table_tablerow" android:background="@drawable/zr_table_content_bg" android:paddingLeft="1.0dip" android:paddingRight="1.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textStyle="bold" android:textSize="15.0sp" android:textColor="@color/zr_white" android:gravity="left" android:id="@+id/zr_table_col1" android:layout_width="fill_parent" android:layout_height="30.0dip" />
+    <TextView android:textStyle="bold" android:textSize="15.0sp" android:gravity="right|center_vertical" android:id="@+id/zr_table_col2" android:layout_width="fill_parent" android:layout_height="30.0dip" android:paddingRight="5.0dip" />
+    <TextView android:textStyle="bold" android:textSize="15.0sp" android:textColor="@color/zr_white" android:gravity="left" android:layout_toRightOf="@+id/zr_table_col2" android:id="@+id/zr_table_col3" android:layout_width="fill_parent" android:layout_height="30.0dip" />
+     <TextView android:textStyle="bold" android:textSize="15.0sp" android:gravity="right|center_vertical" android:id="@+id/zr_table_col5" android:layout_width="fill_parent" android:layout_height="30.0dip" android:paddingRight="5.0dip" />
+    <TextView android:textStyle="bold" android:textSize="15.0sp" android:gravity="right|center_vertical" android:id="@+id/zr_table_col4" android:layout_width="fill_parent" android:layout_height="30.0dip" android:paddingRight="5.0dip" />
+</TableRow>

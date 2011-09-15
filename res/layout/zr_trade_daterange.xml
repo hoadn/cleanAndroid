@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@+id/zr_headerBar" android:layout_width="fill_parent" android:layout_height="@dimen/title_height" layout="@layout/zr_topbar" />
+    <ScrollView android:layout_width="fill_parent" android:layout_below="@id/zr_headerBar" android:layout_height="wrap_content" android:layout_weight="1.0" android:scrollbars="vertical">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical">
+            <LinearLayout android:orientation="vertical" android:background="@drawable/zr_trade_daterange_back" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="10.0dip"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/zr_orange" android:gravity="left" android:paddingTop="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:text="起始日期" />
+                <EditText android:id="@+id/StartDate" android:layout_marginTop="5.0dip" android:layout_marginLeft="40.0dip" android:layout_marginRight="40.0dip" android:textColor="@color/zr_blue" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/zr_orange" android:gravity="left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:text="终止日期" />
+                <EditText android:id="@+id/EndDate" android:layout_marginTop="5.0dip" android:layout_marginLeft="40.0dip" android:layout_marginRight="40.0dip" android:textColor="@color/zr_blue" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <TextView android:id="@+id/lblBZ" android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/zr_orange" android:gravity="left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:text="币         种" android:visibility="gone" />
+                <Spinner android:id="@+id/CurrencyDate" android:prompt="@string/css_currency"  android:layout_marginBottom="5.0dip" android:layout_marginLeft="40.0dip" android:layout_marginRight="40.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:visibility="gone"/>
+                <TextView android:id="@+id/lblbank" android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/zr_orange" android:gravity="left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:text="银         行" android:visibility="gone" />
+                <Spinner android:id="@+id/bankDate" android:prompt="@string/css_bank"  android:layout_marginBottom="20.0dip" android:layout_marginLeft="40.0dip" android:layout_marginRight="40.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:visibility="gone"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:paddingLeft="15.0dip" android:paddingTop="10.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <TextView android:textSize="22.0sp" android:textColor="@color/zr_white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="温馨提示:" />
+                <TextView android:textSize="18.0sp" android:textColor="@color/zr_white" android:layout_marginLeft="10.0dip" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="开市时间,查询间隔不能大于30天" />
+                <TextView android:textSize="18.0sp" android:textColor="@color/zr_white" android:layout_marginLeft="10.0dip" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="闭市时间,查询间隔不能大于360天" />
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="100dip"/>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:id="@+id/linearyout2" android:layout_width="fill_parent"  android:layout_alignParentBottom="true" android:layout_height="wrap_content" >
+  			<include android:id="@+id/zrtoolbar" layout="@layout/zr_toolbar2"    />
+  		</LinearLayout>
+  		<com.cssweb.android.custom.TransPanel
+		android:gravity="left" android:orientation="vertical" android:id="@+id/zr_popup_window"
+		android:visibility="gone" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_below="@id/zr_headerBar">
+		<ListView android:id="@+id/zr_menulist" android:background="@drawable/zrlistback" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/zrlistselectbg" android:cacheColorHint="#ff1d1d1d" android:divider="@drawable/zrlistfgx" android:dividerHeight="2.0dip" android:keepScreenOn="true"
+             xmlns:android="http://schemas.android.com/apk/res/android" />
+	</com.cssweb.android.custom.TransPanel>
+</RelativeLayout>

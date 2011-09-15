@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:id="@+id/zrklinelayout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@+id/zr_headerBar" android:layout_width="fill_parent" android:layout_height="@dimen/title_height" layout="@layout/zr_topbar" />
+    <com.cssweb.android.view.KlineViewSingle android:id="@+id/zrviewkline" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+	<include android:id="@+id/zrtoolbar" android:layout_alignParentBottom="true" layout="@layout/zr_toolbar2" />
+</LinearLayout>

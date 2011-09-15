@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:orientation="vertical" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+  	<include android:id="@+id/zr_headerBar" android:layout_width="fill_parent" android:layout_height="@dimen/title_height" layout="@layout/zr_topbar" />
+  	 
+  	<!--  
+  	<ScrollView android:id="@+id/zrfundaccountformscroll" 
+  		android:layout_width="fill_parent"  
+  		android:layout_height="wrap_content" 
+  		android:layout_weight="1.0"
+  		android:layout_marginTop="20dip" >
+  	-->
+  	<LinearLayout android:id="@+id/quotesetlinearyout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20dip" android:layout_weight="1" android:orientation="vertical" android:keepScreenOn="false" android:layout_below="@id/zr_headerBar">
+  			
+  			<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:background="@drawable/hqyj_edit_bg_01" android:gravity="center_vertical">
+  				<TextView android:id="@+id/codetext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/paiming_title1" android:paddingLeft="15dip" android:textColor="@color/zr_black" android:textSize="18dip">
+  				</TextView>
+  				<TextView android:id="@+id/codeedit" android:layout_width="150dip" android:layout_height="wrap_content" android:background="@drawable/forminput"  android:layout_marginLeft="10dip" android:textColor="@color/zr_black" android:gravity="center"   >
+  				</TextView>
+  				<ImageView android:id="@+id/imagesearch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/hqyj_edit_search" android:layout_marginLeft="8dip">
+				</ImageView>
+  			</LinearLayout>
+  			
+  			<LinearLayout  android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:background="@drawable/hqyj_edit_bg_02" android:gravity="center_vertical">
+  				<TextView android:id="@+id/codetext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/spj_title" android:paddingLeft="32dip" android:textColor="@color/zr_black" android:textSize="18dip">
+  				</TextView>
+  					
+  					<ImageButton android:id="@+id/downimage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/zr_adjust_down_selector" android:layout_marginLeft="10dip"  android:layout_centerVertical="true">
+	  				</ImageButton>
+	  				<EditText android:id="@+id/spjEdit" android:layout_width="60dip" android:layout_height="wrap_content" android:background="@drawable/center"  >
+	  				</EditText>
+	  				<ImageButton  android:id="@+id/upimage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/zr_adjust_up_selector"  android:layout_centerVertical="true">
+	  				</ImageButton >
+  				
+  			</LinearLayout>
+  			
+  			<LinearLayout  android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:background="@drawable/hqyj_edit_bg_02" android:gravity="center_vertical">
+  				<TextView android:id="@+id/codetext"  android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/zfxd_title" android:paddingLeft="15dip"	android:textColor="@color/zr_black" android:textSize="18dip">
+  				</TextView>
+  				<TextView android:id="@+id/zfxdEdit" android:layout_width="140dip" android:layout_height="wrap_content" android:layout_marginLeft="10dip" android:textSize="18dip">
+  				</TextView>
+  			</LinearLayout>
+  			
+  			<LinearLayout  android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:background="@drawable/hqyj_edit_bg_02" android:gravity="center_vertical">
+  				<TextView android:id="@+id/codetext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/xpj_title" android:paddingLeft="32dip" android:textColor="@color/zr_black" android:textSize="18dip">
+  				</TextView>
+  					
+  					<ImageButton android:id="@+id/downimage2"  android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/zr_adjust_down_selector" android:layout_marginLeft="10dip" android:layout_centerVertical="true">
+	  				</ImageButton>
+	  				<EditText android:id="@+id/xpjEdit" android:layout_width="60dip" android:layout_height="wrap_content" android:background="@drawable/center"  android:saveEnabled="true" >
+	  				</EditText>
+	  				<ImageButton android:id="@+id/upimage2" android:layout_width="wrap_content"  android:layout_height="wrap_content" android:background="@drawable/zr_adjust_up_selector"  android:layout_centerVertical="true">
+	  				</ImageButton>
+  				
+  			</LinearLayout>
+  			
+  			<LinearLayout  android:layout_width="fill_parent"	android:layout_height="wrap_content" android:orientation="horizontal"	android:background="@drawable/hqyj_edit_bg_02" android:gravity="center_vertical">
+  				<TextView android:id="@+id/codetext" android:layout_width="wrap_content"  android:layout_height="wrap_content"	android:text="@string/dfxd_title" android:paddingLeft="15dip"	android:textColor="@color/zr_black" android:textSize="18dip" android:textStyle="normal">
+  				</TextView>
+  				<TextView android:id="@+id/dfxdEdit" android:layout_width="140dip" android:layout_height="wrap_content" android:layout_marginLeft="10dip" android:textSize="18dip" >
+  				</TextView>
+  			</LinearLayout>
+  			<LinearLayout  android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:background="@drawable/hqyj_edit_bg_03" android:gravity="center_vertical">
+  				<TextView android:id="@+id/codetext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/zjcj_title" android:paddingLeft="15dip" android:textColor="@color/zr_black" android:textSize="18dip">
+  				</TextView>
+  				<TextView android:id="@+id/zjcjEdit" android:layout_width="140dip" android:layout_height="wrap_content" android:layout_marginLeft="10dip"  android:textSize="18dip" >
+  				</TextView>
+  			</LinearLayout>
+  			<!-- 
+  			<LinearLayout android:layout_height="120.0dip" style="@style/zrtitlelinelaystyle" />
+  			 -->
+  	</LinearLayout>
+  	
+  
+  	<!-- 
+  	</ScrollView>
+  	 -->
+  	 
+  	 
+  	 
+  	<LinearLayout android:id="@+id/linearyout2" android:layout_width="fill_parent"	android:layout_height="fill_parent" android:layout_weight="3" android:gravity="center_vertical|center_horizontal" android:layout_below="@id/quotesetlinearyout">
+  			<Button android:id="@+id/surebutton" android:layout_width="wrap_content" android:layout_height="wrap_content" 	android:background="@drawable/zrsurebuttonbg" android:text="@string/alert_dialog_ok" android:textColor="@color/zr_white">
+  			</Button>
+  			<Button android:id="@+id/cancelbutton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/zrcancelbuttonbg" 	android:text="@string/alert_dialog_cancel" android:textColor="@color/zr_black">
+  			</Button>
+  	</LinearLayout>
+  	
+  	<com.cssweb.android.custom.TransPanel
+		android:gravity="left" android:orientation="vertical" android:id="@+id/zr_popup_window"
+		android:visibility="gone" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_below="@+id/zr_headerBar">
+		<ListView android:id="@+id/zr_menulist" android:background="@drawable/zrlistback" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/zrlistselectbg" android:cacheColorHint="#ff1d1d1d" android:divider="@drawable/zrlistfgx" android:dividerHeight="2.0dip" android:keepScreenOn="true"
+             xmlns:android="http://schemas.android.com/apk/res/android" />
+	</com.cssweb.android.custom.TransPanel>
+	
+</RelativeLayout>

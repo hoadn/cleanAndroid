@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="splash_margin_top">350.0dip</dimen>
+    <dimen name="pic_height">30.0dip</dimen>
+    <dimen name="title_height">46.0dip</dimen>
+    <dimen name="grid_top_height">30.0dip</dimen>
+    <dimen name="bottom_tips">6.0dip</dimen>
+    <dimen name="arrow_height">160.0dip</dimen>
+    <dimen name="tick_down_height">200.0dip</dimen>
+    <dimen name="mystock_top_height">214.0dip</dimen>
+    <dimen name="zhpm_title_height">48.0dip</dimen>
+    
+    <dimen name="keyboard_width_ch">79.0dip</dimen>
+    <dimen name="keyboard_width_en">39.6dip</dimen>
+    <dimen name="keyboard_width_enend">41.1dip</dimen>
+    <dimen name="keyboard_width_ch_submit">158.0dip</dimen>
+    <dimen name="keyboard_width_en_shuzi">79.0dip</dimen>
+    <dimen name="keyboard_width_en_submit">158.0dip</dimen>
+    
+    <dimen name="toolbar_height">41dp</dimen>
+    
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="zr_red">#ffcc0033</color>
+	<color name="zr_blue">#ff0066cc</color>
+	<color name="zr_green">#ff33ff00</color>
+	<color name="zr_yellow">#ffffff00</color>
+	<color name="zr_orange">#ffffb400</color>
+	<color name="zr_black">#ff000000</color>
+	<color name="zr_gray">#ff333333</color>
+	<color name="zr_white">#ffffffff</color>
+	<color name="zr_white_alpha">#c0ffffff</color>
+	<color name="zr_qianlan">#50F2F2</color>
+    <color name="zrwhite2">#ffc6c6c6</color>
+    <color name="zr_all_backcolor">#fff5f5f5</color>
+	<color name="zr_newlightgray">#ffb4b4b4</color>
+	<color name="zr_newpurple">#ff780f05</color>
+	<color name="zr_newdarkgray">#ff5a5a5a</color>
+	<color name="zr_dimgray">#ff696969</color>
+	<color name="zr_qianhuan">#fcfdab</color>
+	<color name="zr_ziluolan">#8000FF</color>
+	<color name="zr_sail">#87CEFA</color>
+	
+	
+	<color name="alpha_00">#00000000</color>
+</resources>

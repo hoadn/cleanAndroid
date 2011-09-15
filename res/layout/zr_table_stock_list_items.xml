@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/zr_table_xk" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center_vertical" android:id="@+id/zr_rt_col1" android:layout_width="0.0dip" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="0.8" android:keepScreenOn="true" />
+    <TextView android:gravity="center_vertical" android:layout_width="2.0dip" android:layout_height="fill_parent" />
+    <TextView android:textStyle="bold" android:gravity="left|center_vertical" android:id="@+id/zr_rt_col2" android:layout_width="0.0dip" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" android:keepScreenOn="true" />
+    <TextView android:gravity="center_vertical" android:layout_width="2.0dip" android:layout_height="fill_parent" />
+    <TextView android:textStyle="bold" android:gravity="center" android:id="@+id/zr_rt_col3" android:layout_width="0.0dip" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="0.8" android:keepScreenOn="true" />
+    <TextView android:gravity="center_vertical" android:layout_width="4.0dip" android:layout_height="fill_parent" />
+    <TextView android:textStyle="bold" android:gravity="center" android:id="@+id/zr_rt_col4" android:layout_width="0.0dip" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" android:keepScreenOn="true" />
+</LinearLayout>

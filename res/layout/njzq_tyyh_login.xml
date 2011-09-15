@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/njzq_main_jlp"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/njzq_main_fk_bg">
+	<include android:id="@+id/zr_headerBar" android:layout_width="fill_parent" android:layout_height="@dimen/title_height" layout="@layout/zr_topbar" />
+	
+	<LinearLayout 
+		android:id="@+id/linearLayout011"
+		android:orientation="vertical"
+    	android:layout_width="fill_parent"
+    	android:layout_height="333dip" android:gravity="center_horizontal|center_vertical"
+    	android:background="@drawable/njzq_tyyh_bg"
+    	android:layout_below="@id/zr_headerBar">
+		
+		<LinearLayout 
+			android:orientation="vertical"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="fill_parent" 
+	    	android:paddingTop="60dip">
+		    	<RelativeLayout android:id="@+id/njzq_tyyh_login_Relativelayout1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:gravity="center_horizontal">
+			    	<AutoCompleteTextView android:id="@+id/tyyhid"
+			    		android:layout_width="258dip"
+			    		android:layout_height="wrap_content"
+			    		android:background="@drawable/njzq_tyyh_input"
+			    		android:layout_gravity="center_horizontal"
+			    		android:layout_marginTop="14dip"
+			    		android:paddingLeft="7.0dip"
+			    		android:cacheColorHint="#00000000"
+			    		android:singleLine="true"
+			    		android:hint="请输入体验卡卡号">
+			    	</AutoCompleteTextView>
+			    	<ImageButton android:id="@+id/tyyhIdImg"
+						android:background="@drawable/more_select" android:layout_width="42dip"
+						android:layout_height="42dip" 
+						android:layout_alignTop="@+id/tyyhid"
+						android:layout_alignRight="@+id/tyyhid"
+						android:layout_alignBottom="@+id/tyyhid" />
+		    	</RelativeLayout>
+		    	<RelativeLayout android:id="@+id/njzq_tyyh_login_Relativelayout2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:gravity="center_horizontal">	
+			    	
+			    	<EditText android:id="@+id/tyyhpwd"
+			    		android:layout_width="258dip"
+			    		android:paddingLeft="7.0dip"
+			    		android:layout_height="wrap_content"
+			    		android:background="@drawable/njzq_tyyh_input"
+			    		android:layout_gravity="center_horizontal"
+			    		android:layout_marginTop="14dip"
+			    		android:hint="请输入体验卡密码"
+			    		android:password="true">
+			    	</EditText>	
+			    	
+			    	<ImageButton android:id="@+id/tyyhloginPwdDelImg" android:visibility="gone"
+						android:background="@drawable/zr_trade_pwd_del" android:layout_width="45dip"
+						android:layout_height="42dip" 
+						android:layout_alignTop="@+id/tyyhpwd"
+						android:layout_alignRight="@+id/tyyhpwd"
+						android:layout_alignBottom="@+id/tyyhpwd" />
+						
+	    		</RelativeLayout>
+	    	
+	    	<LinearLayout 
+				android:orientation="horizontal"
+	    		android:layout_width="fill_parent"
+	    		android:layout_height="wrap_content" 
+	    		android:gravity="center_horizontal" 
+	    		android:layout_marginTop="8dip">
+		    	<TextView android:id="@+id/label2"
+		    		android:layout_width="wrap_content"
+		    		android:layout_height="wrap_content"
+		    		android:text="保存账户"
+		    		android:textColor="@color/zr_white"
+		    		android:textSize="18sp">
+		    	</TextView>
+		    	<CheckBox android:id="@+id/tyyhcheckbox"
+		    		android:checked="false"
+		    		android:layout_width="wrap_content"
+		    		android:layout_height="wrap_content">
+		        </CheckBox>
+	    	</LinearLayout>
+	    	<LinearLayout 
+				android:orientation="horizontal"
+	    		android:layout_width="fill_parent"
+	    		android:layout_height="wrap_content"
+	    		android:paddingTop="15dip" 
+	    		android:gravity="center_horizontal" >
+			    	<Button android:id="@+id/tyyhsurebutton"
+				        	android:layout_width="wrap_content"
+				        	android:layout_height="wrap_content"
+				        	android:background="@drawable/zr_trade_submitbtn"
+				        	android:layout_gravity="center_horizontal" >
+				    </Button>
+			</LinearLayout>
+	    </LinearLayout>
+	</LinearLayout>
+	
+	<LinearLayout android:orientation="horizontal"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="fill_parent"
+	    	android:gravity="center_horizontal|center_vertical" 
+	    	android:layout_below="@id/linearLayout011">
+	    	<Button android:id="@+id/buttonpwd"
+	    		  android:layout_width="wrap_content"
+	    		  android:layout_height="wrap_content"
+	    		  android:background="@drawable/njzq_tyyh_zhmm">
+	    	</Button>
+	    	<Button android:id="@+id/buttonkaihu"
+	    		  android:layout_width="wrap_content"
+	    		  android:layout_height="wrap_content"
+	    		  android:background="@drawable/njzq_tyyh_yykh"
+	    		  android:layout_marginLeft="9dip">
+	    	</Button>
+	    	<Button android:id="@+id/buttonshen"
+	    		  android:layout_width="wrap_content"
+	    		  android:layout_height="wrap_content"
+	    		  android:background="@drawable/njzq_tyyh_sqtyk"
+	    		  android:layout_marginLeft="9dip">
+	    	</Button>
+	 </LinearLayout>
+	
+	<com.cssweb.android.custom.TransPanel
+		android:gravity="left" android:orientation="vertical" android:id="@+id/zr_popup_window"
+		android:visibility="gone" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_below="@id/zr_headerBar">
+		<ListView android:id="@+id/zr_menulist" android:background="@drawable/zrlistback" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/zrlistselectbg" android:cacheColorHint="#ff1d1d1d" android:divider="@drawable/zrlistfgx" android:dividerHeight="2.0dip" android:keepScreenOn="true"
+             xmlns:android="http://schemas.android.com/apk/res/android" />
+	</com.cssweb.android.custom.TransPanel>
+	
+</RelativeLayout>

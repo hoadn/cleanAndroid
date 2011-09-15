@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical" android:background="#ffffffff">
+
+	<ImageView android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:src="@drawable/sms_jh" android:layout_gravity="center"
+		android:layout_marginLeft="30dip" android:layout_marginRight="30dip" />
+
+	<EditText android:layout_width="fill_parent"
+		android:layout_height="0dip" 
+		android:phoneNumber="true"
+		android:layout_weight="2"
+		android:layout_marginLeft="30dip" android:layout_marginRight="30dip"
+		android:gravity="center"
+		android:hint="输入手机号码"
+		android:background="@drawable/rounded_edittext_states" 
+		android:id="@+id/mobileNum"/>
+
+	<Button android:layout_width="fill_parent"
+		android:layout_height="0dip" 
+		android:layout_weight="2"
+		android:layout_marginTop="15dip"
+		android:gravity="center"
+		android:text="给我发送激活码"
+		android:layout_marginLeft="30dip" android:layout_marginRight="30dip"
+		android:background="@drawable/rounded_button_states" 
+		android:id="@+id/sendJHCode"/>
+
+	<EditText android:layout_width="fill_parent"
+		android:layout_height="0dip" 
+		android:layout_weight="2"
+		android:phoneNumber="true"
+		android:layout_marginTop="15dip"
+		android:layout_marginLeft="30dip" android:layout_marginRight="30dip"
+		android:gravity="center"
+		android:hint="输入激活码"
+		android:background="@drawable/rounded_edittext_states" 
+		android:id="@+id/jhCode"/>
+
+	<Button android:layout_width="fill_parent"
+		android:layout_height="0dip" 
+		android:layout_weight="2"
+		android:layout_marginTop="15dip"
+		android:gravity="center"
+		android:text="立即激活"
+		android:layout_marginLeft="30dip" android:layout_marginRight="30dip"
+		android:background="@drawable/rounded_button_states" 
+		android:id="@+id/activityJHCode"/>
+
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:layout_weight="2"
+		android:layout_marginTop="15dip"
+		android:gravity="center" android:layout_marginLeft="20dip"
+		android:layout_marginRight="30dip" android:layout_gravity="center"
+		android:text="手机激活将不会产生任何费用" android:textColor="@color/zr_red"
+		android:textSize="20dip" />
+
+</LinearLayout>

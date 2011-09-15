@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@+id/zr_headerBar" android:layout_width="fill_parent" android:layout_height="@dimen/title_height" layout="@layout/zr_topbar" />
+    <LinearLayout android:background="@drawable/zr_trade_table_cell_head_bg" android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/zr_rt_layout_title" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="@color/zr_white" android:background="@drawable/zr_trade_table_cell_fixed_bg" android:gravity="center" android:id="@+id/zr_rt_title1" android:layout_width="80.0dip" android:layout_height="46.0dip" android:keepScreenOn="true"/>
+       	<TextView android:textSize="18sp" android:textStyle="bold" android:textColor="@color/zr_white" android:gravity="center" android:id="@+id/zr_rt_title2" android:layout_width="80.0dip" android:layout_height="46.0dip" android:keepScreenOn="true" />
+       	<TextView android:textSize="18sp" android:textStyle="bold" android:textColor="@color/zr_white" android:gravity="center" android:id="@+id/zr_rt_title3" android:layout_width="80.0dip" android:layout_height="46.0dip" android:keepScreenOn="true" />
+       	<TextView android:textSize="18sp" android:textStyle="bold" android:textColor="@color/zr_white" android:gravity="center" android:id="@+id/zr_rt_title4" android:layout_width="80.0dip" android:layout_height="46.0dip" android:keepScreenOn="true" />
+    </LinearLayout>
+    <ListView android:id="@+id/zr_rt_listview" android:background="@drawable/zrlistback" android:layout_width="fill_parent" android:layout_height="wrap_content" android:cacheColorHint="#ff1d1d1d" android:dividerHeight="0.0dip" android:layout_weight="1.0"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <include android:id="@+id/zrtoolbar" android:layout_alignParentBottom="true" layout="@layout/zr_toolbar2" />
+</LinearLayout>

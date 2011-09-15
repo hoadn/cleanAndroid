@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<server>
+	<defaultServerUrl>0</defaultServerUrl>
+	<currServerUrl>0</currServerUrl>
+	<roads>
+		<dict>
+			<name>线路1</name>
+			<zixun>http://iweb.njzq.cn/</zixun>
+			<wsyyt>https://jy.njzq.cn/</wsyyt>
+			<webcall>http://webcall.njzq.cn/</webcall>
+			<mncg>http://vtrade.njzq.cn/</mncg>
+			<hqyj>http://122.96.60.47/</hqyj>
+			<validation>http://122.96.60.48/</validation>
+			<jywg>
+				<ip>https://jy.njzq.cn/tradegw/?</ip>
+				<port></port>
+			</jywg>
+			<hqfwq>
+				<ip>njzqhx.njzq.cn</ip>
+				<port>9000</port>
+			</hqfwq>
+		</dict>
+		<dict>
+			<name>线路2</name>
+			<zixun>http://iweb.njzq.cn/</zixun>
+			<wsyyt>https://jy.njzq.cn/</wsyyt>
+			<webcall>http://webcall.njzq.cn/</webcall>
+			<mncg>http://vtrade.njzq.cn/</mncg>
+			<hqyj>http://122.96.60.47/</hqyj>
+			<validation>http://122.96.60.48/</validation>
+
+			<jywg>
+				<ip>njzqgl.njzq.cn</ip>
+				<port>8000</port>
+			</jywg>
+			<hqfwq>
+				<ip>njzqgl.njzq.cn</ip>
+				<port>9000</port>
+			</hqfwq>
+		</dict>
+		<!--<dict>
+			<name>测试1 58</name>
+			<zixun>http://58.213.113.111:8080/</zixun>
+			<wsyyt>http://58.213.113.111:8001/</wsyyt>
+			<webcall>http://58.213.113.111:8080/</webcall>
+			<mncg>http://58.213.113.111:8080/</mncg>
+			<validation>http://58.213.113.111:8080/</validation>
+			<hqyj>http://58.213.113.111:8102/</hqyj>
+			<jywg>
+				<ip>58.213.113.111</ip>
+				<port>8106</port>
+			</jywg>
+			<hqfwq>
+				<ip>58.213.113.111</ip>
+				<port>80</port>
+			</hqfwq>
+		</dict>
+		
+		<dict>
+			<name>多银行存管</name>
+			<zixun>http://58.213.113.111:8080/</zixun>
+			<wsyyt>http://58.213.113.111:8001/</wsyyt>
+			<webcall>http://58.213.113.111:8080/</webcall>
+			<mncg>http://58.213.113.111:8080/</mncg>
+			<hqyj>http://58.213.113.111:8102/</hqyj>
+			<validation>http://58.213.113.111:8080/</validation>
+
+			<jywg>
+				<ip>58.213.113.111</ip>
+				<port>9000</port>
+			</jywg>
+			<hqfwq>
+				<ip>58.213.113.111</ip>
+				<port>80</port>
+			</hqfwq>
+		</dict>
+		<dict>
+			<name>测试2 172</name>
+			<zixun>http://172.18.10.101:8001/</zixun>
+			<wsyyt>http://172.18.10.103:8001/</wsyyt>
+			<webcall>http://172.18.10.101:8001/</webcall>
+			<mncg>http://172.18.10.101:8001/</mncg>
+			<validation>http://172.18.10.101:8001/</validation>
+			<hqyj>http://172.18.10.102:8001/</hqyj>
+
+			<jywg>
+				<ip>172.18.10.106</ip>
+				<port>8000</port>
+			</jywg>
+			<hqfwq>
+				<ip>172.18.10.104</ip>
+				<port>80</port>
+			</hqfwq>
+		</dict>
+	--></roads>
+	<version>版本号：1.0 beta 1(0304)</version>
+</server>

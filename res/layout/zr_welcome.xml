@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:id="@+id/zr_splashLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:background="@drawable/njzq_loading"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@+id/viewtip" android:layout_width="wrap_content" android:layout_height="@dimen/splash_margin_top"/>
+    <ProgressBar android:layout_below="@+id/viewtip" android:id="@+id/progressBar" android:layout_width="200.0dip" android:layout_height="5.0dip" android:max="100" android:progressDrawable="@drawable/loadingbar" android:layout_centerHorizontal="true" style="?android:progressBarStyleHorizontal" />
+	<TextView android:id="@+id/texttip" android:layout_width="wrap_content" android:layout_height="wrap_content"  android:layout_below="@+id/progressBar"   android:layout_centerHorizontal="true"/>
+	<View android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

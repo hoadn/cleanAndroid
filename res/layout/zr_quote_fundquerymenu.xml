@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@+id/zrquerystocklayout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  
+   <include android:id="@+id/zr_headerBar" android:layout_width="fill_parent" android:layout_height="@dimen/title_height" layout="@layout/zr_topbar" />
+  
+   <LinearLayout android:id="@+id/zrfundtransferscroll" android:orientation="vertical"
+		 android:layout_width="fill_parent"  
+		 android:layout_height="fill_parent"
+		 android:layout_marginTop="60dip" 
+		 android:layout_below="@id/zr_headerBar"
+		 android:layout_weight="1.0">
+   		
+   		 <LinearLayout android:id="@+id/zrtip" 
+ 			   android:background="@drawable/zrtablegroupcellheader" 
+ 			   android:layout_width="fill_parent" 
+ 	    	   android:layout_height="wrap_content" 
+ 	    	   android:paddingTop="50dip"
+ 	    	   android:paddingBottom="15dip">
+   		 	<RelativeLayout android:id="@+id/RelativeLayout02"
+		     	android:layout_width="fill_parent" android:layout_gravity="center"
+				android:layout_height="wrap_content" android:layout_marginLeft="15.0dip"
+				android:layout_marginRight="15.0dip">		   
+           		<Spinner android:id="@+id/jingzhiid" android:background="@drawable/spinner_drawable" 
+					android:paddingLeft="110.0dip" android:layout_width="fill_parent"
+					android:layout_height="40dip" android:ellipsize="middle" />
+				<TextView android:gravity="center_vertical" android:id="@+id/TextView011"
+					android:paddingLeft="7.0dip" android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"  android:layout_marginRight="15.0dip"
+					android:text="净值" android:layout_alignLeft="@id/jingzhiid"
+					android:layout_alignTop="@id/jingzhiid" android:layout_alignBottom="@id/jingzhiid"
+					style="@style/loginpage_TextView01" 
+					android:textSize="18dip" />
+			</RelativeLayout>
+        </LinearLayout>	
+        
+        
+        
+        
+         <LinearLayout android:id="@+id/zrtip2" 
+   		 		android:background="@drawable/zrtablegroupcellfooter" 
+   		 	    android:layout_width="fill_parent" 
+   		 	    android:layout_height="wrap_content"
+   		 	    android:paddingTop="15dip"
+   		 	    android:paddingBottom="50dip">
+   		 	<RelativeLayout android:id="@+id/RelativeLayout03"
+		     	android:layout_width="fill_parent" 
+				android:layout_height="wrap_content" android:layout_marginLeft="15.0dip"
+				 android:layout_marginRight="15.0dip">		   
+           		<Spinner android:id="@+id/jingzhiaddid" android:background="@drawable/spinner_drawable" 
+					android:paddingLeft="10.0dip" android:layout_width="fill_parent"
+					android:layout_height="45dip"
+					android:ellipsize="middle"
+					android:textSize="18dip" />
+				<TextView android:gravity="center_vertical" android:id="@+id/TextView011"
+					android:paddingLeft="7.0dip" android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/jingzhiaddlabel" android:layout_alignLeft="@id/jingzhiaddid"
+					android:layout_alignTop="@id/jingzhiaddid" android:layout_alignBottom="@id/jingzhiaddid"
+					style="@style/loginpage_TextView01"
+					android:textSize="18dip" />
+			</RelativeLayout>
+        </LinearLayout>	
+        
+           
+   </LinearLayout>
+    
+    <LinearLayout android:id="@+id/linearyout2" android:layout_width="fill_parent"  android:layout_alignParentBottom="true" android:layout_height="wrap_content" android:layout_weight="3">
+   		<include android:id="@+id/zrtoolbar" android:layout_alignParentBottom="true" layout="@layout/zr_toolbar2" />
+    </LinearLayout>
+    <com.cssweb.android.custom.TransPanel
+		android:gravity="left" android:orientation="vertical" android:id="@+id/zr_popup_window"
+		android:visibility="gone" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_below="@+id/zr_headerBar">
+		<ListView android:id="@+id/zr_menulist" android:background="@drawable/zrlistback" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/zrlistselectbg" android:cacheColorHint="#ff1d1d1d" android:divider="@drawable/zrlistfgx" android:dividerHeight="2.0dip" android:keepScreenOn="true"
+             xmlns:android="http://schemas.android.com/apk/res/android" />
+	</com.cssweb.android.custom.TransPanel>		   
+</RelativeLayout>

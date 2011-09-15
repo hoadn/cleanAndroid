@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:gravity="center" android:id="@+id/lyTitleBar"
+	android:background="@drawable/zrtoolbarbg" android:layout_width="fill_parent"
+	android:layout_height="@dimen/toolbar_height" xmlns:android="http://schemas.android.com/apk/res/android">
+	<LinearLayout android:orientation="horizontal" android:id="@+id/zr_toolbarlayout2"
+		android:layout_width="fill_parent" android:layout_height="fill_parent" >
+		<TextView android:id="@+id/zr_tool_btn1" style="@style/zrtoolbarstyle" />
+		<TextView android:id="@+id/zr_tool_btn2" style="@style/zrtoolbarstyle" />
+		<TextView android:id="@+id/zr_tool_btn3" style="@style/zrtoolbarstyle" />
+		<TextView android:id="@+id/zr_tool_btn4" style="@style/zrtoolbarstyle" />
+		<TextView android:id="@+id/zr_tool_btn5" style="@style/zrtoolbarstyle" />
+		<TextView android:id="@+id/zr_tool_btn6" style="@style/zrtoolbarstyle" />
+	</LinearLayout>
+	<LinearLayout android:orientation="horizontal" android:id="@+id/zr_progressbar"
+		android:visibility="gone" android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<ProgressBar android:id="@android:id/progress"
+			android:layout_width="20.0dip" android:layout_height="wrap_content"
+			android:layout_centerInParent="true" android:layout_gravity="center_vertical"
+			style="@android:style/Widget.ProgressBar.Small"
+			android:layout_alignParentBottom="true" />
+		<TextView android:id="@+id/zr_tool_btn7" android:textSize="18.0sp"
+			android:layout_width="240.0dip" android:layout_height="fill_parent"
+			android:layout_gravity="center_vertical" android:gravity="center"
+			android:layout_alignParentBottom="true" />
+		<TextView android:onClick="cancelThread" android:id="@+id/zr_tool_btn8"
+			android:textSize="18.0sp" android:background="@drawable/zrsettoolbarbg"
+			android:layout_width="40.0dip" android:layout_height="fill_parent"
+			android:layout_gravity="center_vertical" android:gravity="center"
+			android:layout_alignParentBottom="true" />
+	</LinearLayout>
+</RelativeLayout>

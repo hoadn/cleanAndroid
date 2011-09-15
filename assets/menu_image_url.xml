@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<server>
+	<serverUrl>http://iweb.njzq.cn/iphone/pic/quickmenu/</serverUrl>
+	<images>
+		<image>
+			<imagename>quick_hq_wdhqyj</imagename>
+			<dpiext>@2x.png</dpiext>
+			<imageitem>行情预警</imageitem>
+		</image>
+		<image>
+			<imagename>quick_hq_wdzx</imagename>
+			<dpiext>@2x.png</dpiext>
+			<imageitem>我的自选</imageitem>
+		</image>
+		<image>
+			<imagename>quick_hq_dpzs</imagename>
+			<dpiext>@2x.png</dpiext>
+			<imageitem>大盘指数</imageitem>
+		</image>
+		
+		<image>
+			<imagename>quick_hq_zhpm</imagename>
+			<dpiext>@2x.png</dpiext>
+			<imageitem>综合排名</imageitem>
+		</image>
+		<image>
+			<imagename>quick_hq_ggcx</imagename>
+			<dpiext>@2x.png</dpiext>
+			<imageitem>个股查询</imageitem>
+		</image>
+		<image>
+			<imagename>quick_hq_qqsc</imagename>
+			<dpiext>@2x.png</dpiext>
+			<imageitem>全球市场</imageitem>
+		</image>
+		<image>
+			<imagename>quick_hq_flbj</imagename>
+			<dpiext>@2x.png</dpiext>
+			<imageitem>分类报价</imageitem>
+		</image>
+		<image>
+			<imagename>quick_hq_cwjj</imagename>
+			<dpiext>@2x.png</dpiext>
+			<imageitem>场外基金</imageitem>
+		</image>
+		
+		
+		<image>
+			<imagename>quick_zxhd_zjjp</imagename>
+			<dpiext>@2x.png</dpiext>
+			<imageitem>专家解盘</imageitem>
+		</image>
+		<image>
+			<imagename>quick_zxhd_wdtzgw</imagename>
+			<dpiext>@2x.png</dpiext>
+			<imageitem>我的投资顾问</imageitem>
+		</image>
+		<image>
+			<imagename>quick_zxhd_wdkhjl</imagename>
+			<dpiext>@2x.png</dpiext>
+			<imageitem>我的客户经理</imageitem>
+		</image>
+		<image>
+			<imagename>quick_zxhd_zxkh</imagename>
+			<dpiext>@2x.png</dpiext>
+			<imageitem>在线客服</imageitem>
+		</image>
+		<image>
+			<imagename>quick_zxhd_khrx</imagename>
+			<dpiext>@2x.png</dpiext>
+			<imageitem>客服热线</imageitem>
+		</image>
+		<image>
+			<imagename>quick_zxhd_gnly</imagename>
+			<dpiext>@2x.png</dpiext>
+			<imageitem>广纳良言</imageitem>
+		</image>
+		<image>
+			<imagename>quick_zxhd_cjwt</imagename>
+			<dpiext>@2x.png</dpiext>
+			<imageitem>常见问题</imageitem>
+		</image>
+		<image>
+			<imagename>quick_zxhd_mncg</imagename>
+			<dpiext>@2x.png</dpiext>
+			<imageitem>模拟炒股</imageitem>
+		</image>
+		
+		
+		
+		
+		<image>
+			<imagename>quick_zsyyt_yykh</imagename>
+			<dpiext>@2x.png</dpiext>
+			<imageitem>预约开户</imageitem>
+		</image>
+		<image>
+			<imagename>quick_zsyyt_yytgg</imagename>
+			<dpiext>@2x.png</dpiext>
+			<imageitem>营业厅公告</imageitem>
+		</image>
+		<image>
+			<imagename>quick_zsyyt_yywz</imagename>
+			<dpiext>@2x.png</dpiext>
+			<imageitem>营业网点</imageitem>
+		</image>
+		<image>
+			<imagename>quick_zsyyt_ywzx</imagename>
+			<dpiext>@2x.png</dpiext>
+			<imageitem>业务中心</imageitem>
+		</image>
+		<image>
+			<imagename>quick_zsyyt_tzzjy</imagename>
+			<dpiext>@2x.png</dpiext>
+			<imageitem>投资者教育</imageitem>
+		</image>
+		<image>
+			<imagename>quick_zsyyt_tjkh</imagename>
+			<dpiext>@2x.png</dpiext>
+			<imageitem>推荐开户</imageitem>
+		</image>
+		
+		
+		
+		<image>
+			<imagename>quick_nzfc_nzdt</imagename>
+			<dpiext>@2x.png</dpiext>
+			<imageitem>宁证动态</imageitem>
+		</image>
+		<image>
+			<imagename>quick_nzfc_zjnz</imagename>
+			<dpiext>@2x.png</dpiext>
+			<imageitem>走进宁证</imageitem>
+		</image>
+		<image>
+			<imagename>quick_nzfc_jyh</imagename>
+			<dpiext>@2x.png</dpiext>
+			<imageitem>精英汇</imageitem>
+		</image>
+		
+		
+		
+		<image>
+			<imagename>quick_jfly_jfly</imagename>
+			<dpiext>@2x.png</dpiext>
+			<imageitem>积分乐园</imageitem>
+		</image>
+		
+		
+		<image>
+			<imagename>quick_zxlp_cpbd</imagename>
+			<dpiext>@2x.png</dpiext>
+			<imageitem>操盘必读</imageitem>
+		</image>
+		<image>
+			<imagename>quick_zxlp_ywzj</imagename>
+			<dpiext>@2x.png</dpiext>
+			<imageitem>要闻直击</imageitem>
+		</image>
+		<image>
+			<imagename>quick_zxlp_pmhh</imagename>
+			<dpiext>@2x.png</dpiext>
+			<imageitem>盘面护航</imageitem>
+		</image>
+		<image>
+			<imagename>quick_zxlp_tgnc</imagename>
+			<dpiext>@2x.png</dpiext>
+			<imageitem>特供内参</imageitem>
+		</image>
+		<image>
+			<imagename>quick_zxlp_zjlx</imagename>
+			<dpiext>@2x.png</dpiext>
+			<imageitem>资金流向</imageitem>
+		</image>
+		<image>
+			<imagename>quick_zxlp_gugle</imagename>
+			<dpiext>@2x.png</dpiext>
+			<imageitem>股歌gugle</imageitem>
+		</image>
+		
+		
+		<image>
+			<imagename>quick_nzbd_jxzqc</imagename>
+			<dpiext>@2x.png</dpiext>
+			<imageitem>精选证券池</imageitem>
+		</image>
+		<image>
+			<imagename>quick_nzbd_tzzh</imagename>
+			<dpiext>@2x.png</dpiext>
+			<imageitem>投资组合</imageitem>
+		</image>
+		<image>
+			<imagename>quick_nzbd_zqyj</imagename>
+			<dpiext>@2x.png</dpiext>
+			<imageitem>证券研究</imageitem>
+		</image>
+		<image>
+			<imagename>quick_nzbd_qhyj</imagename>
+			<dpiext>@2x.png</dpiext>
+			<imageitem>期货研究</imageitem>
+		</image>
+		<image>
+			<imagename>quick_nzbd_cfpd</imagename>
+			<dpiext>@2x.png</dpiext>
+			<imageitem>财富频道</imageitem>
+		</image>
+	</images>
+</server>

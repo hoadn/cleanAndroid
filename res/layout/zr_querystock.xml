@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@+id/zrquerystocklayout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@+id/zr_headerBar" android:layout_width="fill_parent" android:layout_height="@dimen/title_height" layout="@layout/zr_topbar" />
+
+	    <LinearLayout style="@style/zrtitlelinelaystyle" android:layout_below="@id/zr_headerBar" android:id="@+id/line2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+	        <LinearLayout android:id="@+id/zrtip" android:background="@drawable/zrquerystockheidi" style="@style/zrtexteditheaderstyle">
+	            <TextView android:id="@+id/zrtexttip" android:text="证券代码" style="@style/zrtextviewstyle" />
+	            <EditText android:id="@+id/zrStkItem" android:hint="代码或拼音" android:maxLength="6" android:capitalize="characters" style="@style/zreditfillstyle" />
+	        </LinearLayout>
+	    </LinearLayout>
+	    <ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:layout_below="@id/line2">
+	        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	            <TableLayout android:id="@+id/zrTableLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+	        </LinearLayout>
+	    </ScrollView>
+
+    <com.cssweb.android.custom.TransPanel
+		android:gravity="left" android:orientation="vertical" android:id="@+id/zr_popup_window"
+		android:visibility="gone" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_below="@+id/zr_headerBar">
+		<ListView android:id="@+id/zr_menulist" android:background="@drawable/zrlistback" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/zrlistselectbg" android:cacheColorHint="#ff1d1d1d" android:divider="@drawable/zrlistfgx" android:dividerHeight="2.0dip" android:keepScreenOn="true"
+             xmlns:android="http://schemas.android.com/apk/res/android" />
+	</com.cssweb.android.custom.TransPanel>
+</RelativeLayout>

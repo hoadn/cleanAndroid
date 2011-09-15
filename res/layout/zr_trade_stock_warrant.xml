@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:id="@+id/zrbuyselllayout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+     <include android:id="@+id/zr_headerBar" android:layout_width="fill_parent" android:layout_height="@dimen/title_height" layout="@layout/zr_topbar" />
+    <ScrollView android:id="@+id/zrcnjjscroll" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0"
+	  xmlns:android="http://schemas.android.com/apk/res/android">
+		<LinearLayout android:id="@+id/LinearLayout01" style="@style/zrtitlelinelaystyle">
+	        <LinearLayout android:id="@id/LinearLayout02" style="@style/zrtexteditheaderstyle">
+	            <TextView android:text="@string/holder_code" style="@style/zrtextviewstyle" />
+	            <Spinner android:id="@+id/StockHolder" android:background="@drawable/spinner_drawable" android:layout_marginLeft="10.0dip"
+					android:layout_width="fill_parent" android:layout_marginRight="10.0dip"
+					android:layout_height="40dip" android:ellipsize="middle" />
+	        </LinearLayout>
+	        <LinearLayout android:id="@+id/LinearLayout03" style="@style/zrtexteditcenterstyle">
+	    		<TextView android:text="行权代码" style="@style/zrtextviewstyle" />
+	        	<EditText android:id="@+id/PreWarrantCodeText" style="@style/zreditfillstyle" />
+			</LinearLayout>
+			<LinearLayout android:id="@+id/LinearLayout04" style="@style/zrtexteditcenterstyle">
+	    		<TextView android:text="行权数量" style="@style/zrtextviewstyle" />
+	        	<EditText android:id="@+id/PreWarrantNumText" style="@style/zreditfillstyle" />
+			</LinearLayout>
+			<LinearLayout android:id="@+id/LinearLayout05" style="@style/zrtexteditcenterstyle">
+	    		<TextView android:text="证券名称" style="@style/zrtextviewstyle" />
+	        	<TextView android:id="@+id/StockNameText" android:singleLine="true" android:editable="false" style="@style/zr_trade_textview_orange" />
+			</LinearLayout>
+			<LinearLayout android:id="@+id/LinearLayout06" style="@style/zrtexteditcenterstyle">
+	    		<TextView android:text="行权价格" style="@style/zrtextviewstyle" />
+	        	<TextView android:id="@+id/PriceText" android:singleLine="true" android:editable="false" style="@style/zr_trade_textview_orange" />
+			</LinearLayout>
+			<LinearLayout android:id="@+id/LinearLayout07" style="@style/zrtexteditcenterstyle">
+	    		<TextView android:text="可用资金" style="@style/zrtextviewstyle" />
+	        	<TextView android:id="@+id/AvailableFundsText" android:singleLine="true" android:editable="false" style="@style/zr_trade_textview_orange" />
+			</LinearLayout>
+			<LinearLayout android:id="@+id/LinearLayout08" style="@style/zrtexteditfooterstyle">
+	    		<TextView android:text="可用数量" style="@style/zrtextviewstyle" />
+	        	<TextView android:id="@+id/AvailableNumText" style="@style/zr_trade_textview_orange" />
+			</LinearLayout>
+	        <LinearLayout android:layout_height="220.0dip" style="@style/zrtitlelinelaystyle" />
+	    </LinearLayout>
+    </ScrollView>
+    <include android:id="@+id/zrtoolbar" android:layout_alignParentBottom="true" layout="@layout/zr_toolbar" />
+</LinearLayout>

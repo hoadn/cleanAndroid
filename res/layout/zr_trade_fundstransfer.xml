@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@+id/zrbuyselltransferlayout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+   <include android:id="@+id/zr_headerBar" android:layout_width="fill_parent" android:layout_height="@dimen/title_height" layout="@layout/zr_topbar" />
+   <ScrollView android:scrollbars="none" android:id="@+id/zrfundstransferscroll" android:layout_below="@id/zr_headerBar" android:layout_width="fill_parent"  android:layout_height="wrap_content" android:layout_weight="1"
+   			   xmlns:android="http://schemas.android.com/apk/res/android">
+   			   
+   			<LinearLayout android:id="@+id/fundstransferLinearLayout01"   style="@style/zrtitlelinelaystyle">
+   						
+   						<LinearLayout android:id="@+id/transferLayout02" style="@style/zrtexteditheaderstyle"  >
+   							<TextView android:id="@+id/convertoutaccounttext" android:text="转出账号" style="@style/zrtextviewstyle" />
+   							<Spinner android:paddingLeft="3dip" android:id="@+id/convertoutaccountid" android:background="@drawable/zrspinnerbgwhitenew" android:layout_marginLeft="10.0dip"
+					android:layout_width="fill_parent" android:layout_marginRight="10.0dip" android:layout_gravity="center"
+					android:layout_height="40dip" android:ellipsize="middle" />
+   						</LinearLayout>
+   						<LinearLayout android:id="@+id/transferLayout01" style="@style/zrtexteditcenterstyle"  >
+   							<TextView android:id="@+id/convertinaccounttext" android:text="转入账号" style="@style/zrtextviewstyle" />
+   							<Spinner android:paddingLeft="3dip" android:id="@+id/convertinaccountid" android:background="@drawable/zrspinnerbgwhitenew" android:layout_marginLeft="10.0dip"
+					android:layout_width="fill_parent" android:layout_marginRight="10.0dip" android:layout_gravity="center"
+					android:layout_height="40dip" android:ellipsize="middle" />
+   						</LinearLayout>
+   						<LinearLayout android:id="@+id/transferLayout07" style="@style/zrtexteditcenterstyle"  >
+   							<TextView android:id="@+id/bztext" android:text="选择币种" style="@style/zrtextviewstyle" />
+				          	<Spinner android:paddingLeft="3dip" android:id="@+id/Currency" android:background="@drawable/zrspinnerbgwhitenew" android:layout_marginLeft="10.0dip"
+								 android:layout_width="fill_parent" android:layout_marginRight="10.0dip" android:layout_gravity="center"
+								android:layout_height="40dip" android:ellipsize="middle"/>
+   						</LinearLayout>
+   						
+   						<LinearLayout android:id="@+id/transferLayout03" style="@style/zrtexteditcenterstyle"  >
+   							<TextView android:id="@+id/convertpwdtext" android:text="转出密码" style="@style/zrtextviewstyle" />
+							<EditText android:id="@+id/convertpwd" style="@style/zreditfillstyle"  android:enabled="true" android:password="true" android:numeric="decimal"/>
+   						</LinearLayout>
+   						
+   						<LinearLayout android:id="@+id/transferLayout04" style="@style/zrtexteditfooterstyle"  >
+							<TextView android:id="@+id/convertamounttext" android:text="转账金额" style="@style/zrtextviewstyle" />
+							<EditText android:id="@+id/convertamount" style="@style/zreditfillstyle" android:maxLength="10" />
+							<TextView android:id="@+id/convertamountUnit" android:text="元" style="@style/zrtextviewstyle" />
+   						</LinearLayout>
+   						<LinearLayout android:layout_height="220.0dip" style="@style/zrtitlelinelaystyle" />
+   			</LinearLayout>
+  </ScrollView>
+  <LinearLayout android:id="@+id/linearyout2" android:layout_width="fill_parent"  android:layout_alignParentBottom="true" android:layout_height="wrap_content" >
+  			<include android:id="@+id/zrtoolbar" layout="@layout/zr_toolbar2"    />
+  		</LinearLayout>
+  		<com.cssweb.android.custom.TransPanel
+		android:gravity="left" android:orientation="vertical" android:id="@+id/zr_popup_window"
+		android:visibility="gone" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_below="@id/zr_headerBar">
+		<ListView android:id="@+id/zr_menulist" android:background="@drawable/zrlistback" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/zrlistselectbg" android:cacheColorHint="#ff1d1d1d" android:divider="@drawable/zrlistfgx" android:dividerHeight="2.0dip" android:keepScreenOn="true"
+             xmlns:android="http://schemas.android.com/apk/res/android" />
+	</com.cssweb.android.custom.TransPanel>
+  		
+ </RelativeLayout>

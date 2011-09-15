@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@+id/zr_headerBar" android:layout_width="fill_parent" android:layout_height="@dimen/title_height" layout="@layout/zr_topbar" />
+    <FrameLayout android:orientation="vertical" android:id="@+id/njzq_gallery_view" android:layout_width="wrap_content" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+		<ViewFlipper android:id="@+id/ViewFlipper01" android:layout_width="fill_parent" android:layout_height="@dimen/mystock_top_height">
+	        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+	          xmlns:android="http://schemas.android.com/apk/res/android">
+	            <com.cssweb.android.view.TrendView android:id="@+id/zrviewtrend" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+	        </LinearLayout>
+	        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+	          xmlns:android="http://schemas.android.com/apk/res/android">
+	            <com.cssweb.android.view.KlineMini android:id="@+id/zrviewkline" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+	        </LinearLayout>
+	        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+	          xmlns:android="http://schemas.android.com/apk/res/android">
+	            <com.cssweb.android.view.PriceMini android:id="@+id/zrviewprice" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+	        </LinearLayout>
+	        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+	          xmlns:android="http://schemas.android.com/apk/res/android">
+	            <com.cssweb.android.view.FinanceMini android:id="@+id/zrviewfinance" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+	        </LinearLayout>
+	    </ViewFlipper>
+	    <ImageView
+		   android:id="@+id/previous_screen"
+		   android:layout_width="wrap_content"
+		   android:layout_height="wrap_content"
+		   android:layout_marginBottom="2.0dip"
+		   android:layout_gravity="bottom|center_horizontal"
+		   android:layout_centerHorizontal="true"
+		   android:scaleType="center"
+		   android:src="@drawable/page_arrow_21"
+		   android:layout_alignParentBottom="true"
+		   android:focusable="true"/>
+    </FrameLayout>
+    <RelativeLayout android:id="@+id/zr_mystk_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+		    <ListView android:id="@+id/zr_rt_listview" android:background="@drawable/zrlistback" android:layout_width="fill_parent" android:layout_height="wrap_content" android:cacheColorHint="#ff1d1d1d" android:dividerHeight="0.0dip" android:layout_weight="1.0"
+		      xmlns:android="http://schemas.android.com/apk/res/android" />
+            <LinearLayout android:visibility="gone" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@+id/zr_userstkbarlayout" android:background="@drawable/zruserstockbar" android:layout_width="fill_parent" android:layout_height="wrap_content"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <TextView android:id="@+id/njzq_userstockbtn1" android:text="上页" style="@style/zrtoolbarstyle" />
+                <TextView android:id="@+id/njzq_userstockbtn2" android:text="下页" style="@style/zrtoolbarstyle" />
+                <TextView android:id="@+id/njzq_userstockbtn3" android:text="上移" style="@style/zrtoolbarstyle" />
+                <TextView android:id="@+id/njzq_userstockbtn4" android:text="下移" style="@style/zrtoolbarstyle" />
+                <TextView android:id="@+id/njzq_userstockbtn5" android:text="清除" style="@style/zrtoolbarstyle" />
+                <TextView android:id="@+id/njzq_userstockbtn6" android:text="隐藏" style="@style/zrtoolbarstyle" />
+            </LinearLayout>
+        </FrameLayout>
+    </RelativeLayout>
+    <include android:id="@+id/zrtoolbar" android:layout_alignParentBottom="true" layout="@layout/zr_toolbar2" />
+    
+</LinearLayout>

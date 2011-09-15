@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@+id/zrbuyselllayout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+     <include android:id="@+id/zr_headerBar" android:layout_width="fill_parent" android:layout_height="@dimen/title_height" layout="@layout/zr_topbar" />
+    
+	<ScrollView android:scrollbars="none" android:id="@+id/zrcnjjscroll" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_below="@id/zr_headerBar"
+	  xmlns:android="http://schemas.android.com/apk/res/android">
+	    <LinearLayout android:id="@+id/LinearLayout01" style="@style/zrtitlelinelaystyle" android:layout_weight="1.0">
+	    	<TextView android:id="@+id/zr_trade_exchange_fund_label" style="@style/zrtitleviewstyle" android:visibility="gone"/>
+	        <LinearLayout android:id="@+id/LinearLayout02" style="@style/zrtexteditheaderstyle" android:visibility="gone">
+	            <TextView android:id="@+id/zr_cnjj_label_operation" android:text="选择操作" style="@style/zrtextviewstyle" />
+	            <Spinner android:paddingLeft="3dip" android:id="@+id/Operation" android:background="@drawable/zrspinnerbgwhitenew" android:layout_marginLeft="10.0dip"
+					 android:layout_width="fill_parent" android:layout_marginRight="10.0dip"
+					android:layout_height="40dip" android:ellipsize="middle"/>
+	        </LinearLayout>
+	        <LinearLayout android:id="@+id/LinearLayout03" style="@style/zrtexteditheaderstyle">
+	    		<TextView android:id="@+id/zr_cnjj_label_fund_code" android:text="@string/fund_code" style="@style/zrtextviewstyle" />
+	        	<EditText android:id="@+id/FundCode" style="@style/zreditfillstyle" />
+			</LinearLayout>
+			<LinearLayout android:id="@+id/LinearLayout09" style="@style/zrtexteditcenterstyle">
+	    		<TextView android:id="@+id/zr_cnjj_label_holder_code" android:text="@string/holder_code1" style="@style/zrtextviewstyle" />
+	        	<Spinner android:paddingLeft="3dip" android:id="@+id/HolderCode" android:background="@drawable/zrspinnerbgwhitenew" android:layout_marginLeft="10.0dip"
+					 android:layout_width="fill_parent" android:layout_marginRight="10.0dip" android:layout_gravity="center"
+					android:layout_height="40dip" android:ellipsize="middle"/>
+			</LinearLayout>
+			<LinearLayout android:id="@+id/LinearLayout04" style="@style/zrtexteditcenterstyle">
+	    		<TextView android:id="@+id/zr_cnjj_label_number" style="@style/zrtextviewstyle" />
+	        	<EditText android:id="@+id/Number" style="@style/zreditfillstyle" />
+			</LinearLayout>
+			<LinearLayout android:id="@+id/LinearLayout05" style="@style/zrtexteditcenterstyle">
+	    		<TextView android:id="@+id/zr_cnjj_label_fund_name" android:text="@string/fund_name" style="@style/zrtextviewstyle" />
+	        	<TextView android:id="@+id/FundName" style="@style/zr_trade_textview_zr_white" />
+			</LinearLayout>
+			<LinearLayout android:id="@+id/LinearLayout06" style="@style/zrtexteditcenterstyle">
+	    		<TextView android:id="@+id/zr_cnjj_label_avai_asset" android:text="@string/avai_asset" style="@style/zrtextviewstyle" />
+	        	<TextView android:id="@+id/AvaiAsset" style="@style/zr_trade_textview_zr_white" />
+			</LinearLayout>
+			<LinearLayout android:id="@+id/LinearLayout07" style="@style/zrtexteditcenterstyle" android:visibility="gone">
+	    		<TextView android:id="@+id/zr_cnjj_label_max_number" style="@style/zrtextviewstyle" />
+	        	<TextView android:id="@+id/MaxNumber" style="@style/zr_trade_textview_zr_white" />
+			</LinearLayout>
+			<LinearLayout android:id="@+id/LinearLayout08" style="@style/zrtexteditfooterstyle">
+	    		<TextView android:id="@+id/zr_cnjj_label_fundNav" android:text="基金价格" style="@style/zrtextviewstyle" />
+	        	<TextView android:id="@+id/fundNav" style="@style/zr_trade_textview_zr_white" />
+			</LinearLayout>
+	        <LinearLayout android:layout_height="220.0dip" style="@style/zrtitlelinelaystyle" />
+	    </LinearLayout>
+	</ScrollView>
+	<LinearLayout android:id="@+id/linearyout2" android:layout_width="fill_parent"  android:layout_alignParentBottom="true"  android:layout_height="wrap_content" >
+   <include android:id="@+id/zrtoolbar" layout="@layout/zr_toolbar2"    />
+   </LinearLayout>
+	<com.cssweb.android.custom.TransPanel
+		android:gravity="left" android:orientation="vertical" android:id="@+id/zr_popup_window"
+		android:visibility="gone" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_below="@+id/zr_headerBar">
+		<ListView android:id="@+id/zr_menulist" android:background="@drawable/zrlistback" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/zrlistselectbg" android:cacheColorHint="#ff1d1d1d" android:divider="@drawable/zrlistfgx" android:dividerHeight="2.0dip" android:keepScreenOn="true"
+             xmlns:android="http://schemas.android.com/apk/res/android" />
+	</com.cssweb.android.custom.TransPanel>
+</RelativeLayout>

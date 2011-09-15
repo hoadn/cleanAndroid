@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@+id/zrbuysellmelonsetlayout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  	   <include android:id="@+id/zr_headerBar" android:layout_width="fill_parent" android:layout_height="@dimen/title_height" layout="@layout/zr_topbar" />
+  		<ScrollView android:scrollbars="none" android:id="@+id/zrfundmelonsetscroll" android:layout_below="@id/zr_headerBar" android:layout_width="fill_parent"  android:layout_height="wrap_content" android:layout_weight="1"
+  					xmlns:android="http://schemas.android.com/apk/res/android">
+  				<LinearLayout android:id="@+id/melonLinearLayout01" style="@style/zrtitlelinelaystyle">
+  					<TextView android:id="@+id/zr_melon_label_title" style="@style/zrtitleviewstyle" android:visibility="gone"/>
+  					<LinearLayout android:id="@+id/melonLinearLayout03" style="@style/zrtexteditheaderstyle">
+  						<TextView android:id="@+id/zr_melon_label_fund_code" android:text="@string/fund_code" style="@style/zrtextviewstyle" />
+  						<EditText android:id="@+id/melon_fundcode" style="@style/zreditfillstyle" android:numeric="integer" />
+  					</LinearLayout>
+  					<LinearLayout android:id="@+id/melonLinearLayout05"  style="@style/zrtexteditcenterstyle">
+  						<TextView android:id="@+id/zr_melon_label_fund_name" android:text="@string/fund_name"  style="@style/zrtextviewstyle" />
+  						<TextView android:id="@+id/melon_FundName" style="@style/zr_trade_textview_zr_white" />
+  					</LinearLayout>
+  					<LinearLayout android:id="@+id/melonLinearLayout06" style="@style/zrtexteditcenterstyle">
+	    				<TextView android:id="@+id/zr_melon_label_nav" android:text="@string/fund_nav" style="@style/zrtextviewstyle" />
+	        			<TextView android:id="@+id/melon_FundNav" style="@style/zr_trade_textview_zr_white" />
+					</LinearLayout>
+					
+					<LinearLayout android:id="@+id/melonLinearLayout08" style="@style/zrtexteditcenterstyle" android:visibility="gone" >
+	    				<TextView android:id="@+id/zr_melon_label_avai_number" android:text="@string/have_number" style="@style/zrtextviewstyle" />
+	        			<TextView android:id="@+id/melon_AvaiNumber" style="@style/zr_trade_textview_zr_white" />
+					</LinearLayout>
+					<LinearLayout android:id="@+id/melonLinearLayout09" style="@style/zrtexteditfooterstyle"  >
+	            		<TextView android:id="@+id/zr_melon_label_flag" android:text="@string/melonset" style="@style/zrtextviewstyle" />
+	          			<Spinner android:paddingLeft="3dip" android:id="@+id/melon_RedempFlag" android:background="@drawable/zrspinnerbgwhitenew" android:layout_marginLeft="10.0dip"
+					android:layout_width="fill_parent" android:layout_marginRight="10.0dip" android:layout_gravity="center"
+					android:layout_height="40dip" android:ellipsize="middle" />
+	       		    </LinearLayout>
+					
+  				</LinearLayout>
+  		</ScrollView>
+  		<LinearLayout android:id="@+id/linearyout2" android:layout_width="fill_parent"  android:layout_alignParentBottom="true" android:layout_height="wrap_content" >
+  			<include android:id="@+id/zrtoolbar" layout="@layout/zr_toolbar2"    />
+  		</LinearLayout>
+  		<com.cssweb.android.custom.TransPanel
+		android:gravity="left" android:orientation="vertical" android:id="@+id/zr_popup_window"
+		android:visibility="gone" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_below="@id/zr_headerBar">
+		<ListView android:id="@+id/zr_menulist" android:background="@drawable/zrlistback" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/zrlistselectbg" android:cacheColorHint="#ff1d1d1d" android:divider="@drawable/zrlistfgx" android:dividerHeight="2.0dip" android:keepScreenOn="true"
+             xmlns:android="http://schemas.android.com/apk/res/android" />
+	</com.cssweb.android.custom.TransPanel>
+</RelativeLayout>

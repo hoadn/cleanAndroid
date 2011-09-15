@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@+id/personcenter"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+ 	<ListView android:id="@+id/listAccount" android:layout_width="fill_parent"
+ 		android:layout_height="fill_parent" android:cacheColorHint="#ffffffff"
+ 		android:layout_marginLeft="78.0dip" android:layout_marginRight="78.0dip"
+ 		android:background="@drawable/more_account_dialog_bg"
+ 		android:listSelector="@drawable/more_account_select_bg"
+ 		android:divider="@drawable/divider" android:headerDividersEnabled="false" />
+
+</LinearLayout>

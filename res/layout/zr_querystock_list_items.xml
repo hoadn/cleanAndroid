@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TableRow android:id="@+id/zr_querystock_list_tablerow" android:background="@drawable/zrquerystocklistitem" android:paddingLeft="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="22.0sp" android:textColor="@color/zr_yellow" android:gravity="left|center" android:id="@+id/zr_querystock_list_col1" android:layout_width="wrap_content" android:layout_height="40.0dip" />
+    <TextView android:textSize="22.0sp" android:gravity="left|center" android:id="@+id/zr_querystock_list_col2" android:layout_width="fill_parent" android:layout_height="40.0dip" />
+</TableRow>

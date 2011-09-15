@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="250dip" android:layout_height="fill_parent"
+	android:background="#ffff00ff"
+	android:orientation="vertical">
+
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="消息提示"
+		android:paddingTop="20dip"
+		android:textSize="30dip" android:gravity="center"/>
+
+	<ProgressBar
+		android:id="@+id/progressBar" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:layout_gravity="center"
+		
+		/>
+		
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="正在加载中...."
+		android:textSize="30dip" android:gravity="center" android:textColor="@color/zr_blue" />
+
+	
+	<Button
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="取消"
+		android:paddingBottom="15dip"
+		android:id="@+id/cancelDialog"
+		
+		/>
+</LinearLayout>
